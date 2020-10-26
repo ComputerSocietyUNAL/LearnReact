@@ -48,6 +48,28 @@ body {
   cursor: pointer;
 }
 
+#answers {
+  background-color: #fff;
+  border: 2px solid #0094da;
+  min-height: 70px;
+  width: 48%;
+  display: flex;
+  margin-bottom: 30px;
+  transition: color .3s ease, border-color .3s ease, transform .3s ease;
+  cursor: pointer;
+}
+
+#answers span {
+  background-color: #0084da;
+  color: #fff;
+  font-size: 30px;
+  flex: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .3s ease;
+}
+
 #answers li span {
   background-color: #0084da;
   color: #fff;

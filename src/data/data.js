@@ -60,4 +60,4 @@ export const data = [
         answers: ['Se enrojese con facilidad', 'Cambia de aspecto se vuelve más grasosa o por el contrario, la siento reseca', 'Mi piel sigue igual', 'No he notado ningun cambio'],
         correct1: [1,1,0,0]
     }
-]
+];

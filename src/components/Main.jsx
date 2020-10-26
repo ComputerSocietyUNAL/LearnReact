@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import img from '../logo.svg';
+import Questionary from './Questionary';
 
 export default class Main extends Component {
 
-    startTest = (event) => {
-        console.log("Evento: ", event)
-    }
     
     render() {
         
         return (
             <React.Fragment>    
                 <Header/>
-                {
+                
                     <div className="container">
                         <div className="row">
                             <div className="col-6">
                                 <div className="contenido">        
                                     <p>¿Cual es mi tipo de piel y que producto debo utilizar?</p>
-                                    <button onClick={e => this.startTest(e)}>Empezar el test ahora</button>
+                                    <Link to="/test">Empezar Test</Link>
                                 </div>
                             </div>
                             <div className="col-6">
@@ -28,7 +27,7 @@ export default class Main extends Component {
                             </div>
                         </div>
                     </div>
-                }
+                
                 <Footer/>
             </React.Fragment>
         );

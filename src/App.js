@@ -3,10 +3,11 @@ import {
   BrowserRouter as Router,
   Switch,
   Route
-} from "react-router-dom";
+} from 'react-router-dom';
 
 import Main from './components/Main';
 import MainQuestions from './components/MainQuestions';
+import Questionary from './components/Questionary';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/test">
-            <MainQuestions />
+            {/* <MainQuestions /> */}
+            <Questionary />
           </Route>
           <Route path="/">
             <Main/>
