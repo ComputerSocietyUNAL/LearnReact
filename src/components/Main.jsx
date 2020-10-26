@@ -4,6 +4,10 @@ import Footer from './Footer';
 import img from '../logo.svg';
 
 export default class Main extends Component {
+
+    startTest = (event) => {
+        console.log("Evento: ", event)
+    }
     
     render() {
         
@@ -16,7 +20,7 @@ export default class Main extends Component {
                             <div className="col-6">
                                 <div className="contenido">        
                                     <p>¿Cual es mi tipo de piel y que producto debo utilizar?</p>
-                                    <button>Empezar el test ahora</button>
+                                    <button onClick={e => this.startTest(e)}>Empezar el test ahora</button>
                                 </div>
                             </div>
                             <div className="col-6">
