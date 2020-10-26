@@ -1,7 +1,6 @@
 body {
   background-color: #e4e4e4;
-font-family: Open Sans;
-  margin-top: 10%;
+  font-family: Open Sans;
   margin-bottom: 50px;
 }
 
@@ -165,6 +164,25 @@ font-family: Open Sans;
   margin: 20px auto;
 }
 
+header{
+  background-color: #0b0e21;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header p {
+  margin: 0;
+}
+
+header small {
+  margin-bottom: 10px;
+}
+
+header span {
+  color: crimson;
+}
+
 footer {
   background-color: #0b0e21;
   color: white;
@@ -189,6 +207,20 @@ footer span {
   color: crimson;
 }
 
+.contenedor {
+  position: relative;
+}
+.contenido {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 30%;
+  margin: auto;
+}
+
 @media (max-width: 768px) {
   #question p {
       padding-left: 10px;
@@ -203,6 +235,7 @@ footer span {
       width: 100%;
   }
 }
+
 @media (max-width: 480px) {
   
   footer {

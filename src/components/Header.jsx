@@ -3,11 +3,11 @@ import React, {Component} from 'react'
 export default class Footer extends Component{
     render() {
         return (
-            <footer>
+            <header>
                 <small>
                     Cetaphil 70 años                    
                 </small>
-            </footer>
+            </header>
         )
     }
 };

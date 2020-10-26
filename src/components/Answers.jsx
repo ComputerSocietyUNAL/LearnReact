@@ -30,18 +30,12 @@ export default class Answers extends Component {
             
             this.setState({
                 classNames: updatedClassNames
-            })
+            })  
 
             this.props.showButton();
         }
     }
-    
-    // componentWillUpdate() {
-    //     this.setState({
-    //         classNames: ['', '', '', '']
-    //     });
-    // }
-    
+        
     render() {
         let { answers } = this.props;
         let { classNames } = this.state;
