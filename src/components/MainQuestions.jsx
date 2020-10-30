@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { data } from '../data/data';
 import Answers from './Answers';
+import Footer from './Footer';
 import Header from './Header';
 
 export default class Main extends Component {
@@ -23,7 +24,6 @@ export default class Main extends Component {
         this.setState({
             question: data[nr].question,
             answers: [data[nr].answers[0], data[nr].answers[1], data[nr].answers[2], data[nr].answers[3] ],
-            correct: data[nr].correct,
             nr: this.state.nr + 1
         });
     }
@@ -64,24 +64,23 @@ export default class Main extends Component {
     }
 
     render() {
-        let { nr, total, question, answers, correct, questionAnswered} = this.state;
+        let { nr, total, question, answers, questionAnswered} = this.state;
 
         return (
             <div className="container">
                 <div id="question" className="row">
                     <div  className="col-6 contenido">
-                        <p>{question}</p>
-                        <h4>Question {nr}/{total}</h4>
+                        <p className="pregunta" >{question}</p>
+                        <h4>{nr}/{total}</h4>
                     </div>
                     <div className="col-6">
                         <Header/>
                         <Answers 
-                            answers={answers} 
-                            correct={correct} 
+                            answers={answers}
                             showButton={this.nextQuestion} 
                             isAnswered={questionAnswered} 
                             increaseScore={this.handleIncreaseScore}/>
-                        <Header/>
+                        <Footer/>
                     </div>
                 </div>
             </div>

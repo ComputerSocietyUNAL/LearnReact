@@ -1,12 +1,11 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import footer from '../img/footer.png';
 
 export default class Footer extends Component{
     render() {
         return (
             <footer>
-                <small>
-                    Cetaphil 70 años                    
-                </small>
+                <img className="footer" src={footer} alt="Imagen"></img>
             </footer>
         )
     }

@@ -1,12 +1,17 @@
 body {
   background-color: #e4e4e4;
-  font-family: Open Sans;
+  font-family: Apis-Medium, Sans;
   margin-bottom: 50px;
 }
 
+@font-face {
+  font-family: Apis-Medium;
+  src: url("./fonts/Apis-Medium.ttf");
+}
+
 #question {
-  background-color: #0094da;
-  color: white;
+  background-color: #c9d1d0;
+  color: #8B9696;
   padding: 10px;
   text-align: center;
 }
@@ -21,11 +26,11 @@ body {
 }
 
 #question p{
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 2px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #answers ul{
@@ -39,7 +44,6 @@ body {
 
 #answers li {
   background-color: #fff;
-  border: 2px solid #0094da;
   min-height: 70px;
   width: 98%;
   display: flex;
@@ -50,7 +54,6 @@ body {
 
 #answers {
   background-color: #fff;
-  border: 2px solid #0094da;
   min-height: 70px;
   width: 100%;
   display: flex;
@@ -58,26 +61,8 @@ body {
   cursor: pointer;
 }
 
-#answers span {
-  background-color: #0084da;
-  color: #fff;
-  font-size: 30px;
-  flex: 75px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color .3s ease;
-}
-
-#answers li span {
-  background-color: #0084da;
-  color: #fff;
-  font-size: 30px;
-  flex: 75px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color .3s ease;
+#answers img {
+  margin-left: 2%;
 }
 
 #answers li p {
@@ -85,7 +70,7 @@ body {
   font-size: 16px;
   font-weight: 600;
   flex: calc(100% - 75px);
-  margin: auto 20px;
+  margin: auto 10px;
   transition: color .3s ease;
 }
 
@@ -186,34 +171,16 @@ body {
 }
 
 header{
-  background-color: #0b0e21;
-  color: white;
+  background-color: white;
   padding: 20px;
-  text-align: center;
-}
-
-header p {
-  margin: 0;
-}
-
-header small {
-  margin-bottom: 10px;
-}
-
-header span {
-  color: crimson;
+  text-align: end;
 }
 
 footer {
-  background-color: #0b0e21;
+  background-color: #ffffff;
   color: white;
-  letter-spacing: 1px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
   padding: 20px;
-  text-align: center;
+  text-align: end;
 }
 
 footer p {
@@ -228,10 +195,18 @@ footer span {
   color: crimson;
 }
 
+.fondo{
+  background-color: #BFC8D0;
+}
+
 .contenido {
   width: 100%;
   height: 100%;
   margin: auto;
+}
+
+.contenido p {
+  font-size: 2.3rem;
 }
 
 @media (max-width: 768px) {
