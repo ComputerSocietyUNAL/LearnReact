@@ -7,16 +7,14 @@ import {
 
 import Main from './components/Main';
 import MainQuestions from './components/MainQuestions';
-import Questionary from './components/Questionary';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/test">
-            {/* <MainQuestions /> */}
-            <Questionary />
+          <Route path="/test">            
+            <MainQuestions />
           </Route>
           <Route path="/">
             <Main/>

@@ -41,7 +41,7 @@ body {
   background-color: #fff;
   border: 2px solid #0094da;
   min-height: 70px;
-  width: 48%;
+  width: 98%;
   display: flex;
   margin-bottom: 30px;
   transition: color .3s ease, border-color .3s ease, transform .3s ease;
@@ -52,9 +52,8 @@ body {
   background-color: #fff;
   border: 2px solid #0094da;
   min-height: 70px;
-  width: 48%;
+  width: 100%;
   display: flex;
-  margin-bottom: 30px;
   transition: color .3s ease, border-color .3s ease, transform .3s ease;
   cursor: pointer;
 }
