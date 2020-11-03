@@ -8,40 +8,45 @@ export default class Main extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            nr: 0,
+            current: 0,
             total: data.length,
             showButton: false,
             questionAnswered: false,
-            score: 0,
-            displayPopup: 'flex'
+            skinType:[0,0,0,0],
+            sensibleSkin:[0,0,0,0],
+            skinScore: 0,
+            sensibleSkinScore: 0
         }
         this.nextQuestion = this.nextQuestion.bind(this);
         this.handleShowButton = this.handleShowButton.bind(this);
-        this.handleIncreaseScore = this.handleIncreaseScore.bind(this);
+        this.handleIncreaseSkinScore = this.handleIncreaseSkinScore.bind(this);
+        this.handleIncreaseSensibleSkinScore = this.handleIncreaseSensibleSkinScore.bind(this);
     }
 
-    pushData(nr) {
+    pushData(current) {
         this.setState({
-            question: data[nr].question,
-            answers: [data[nr].answers[0], data[nr].answers[1], data[nr].answers[2], data[nr].answers[3] ],
-            nr: this.state.nr + 1
+            question: data[current].question,
+            answers: [data[current].answers[0], data[current].answers[1], data[current].answers[2], data[current].answers[3] ],
+            skinType: data[current].skinType,
+            sensibleSkin: data[current].sensibleSkin,
+            configStyle: data[current].configStyle,
+            configIcon: data[current].configIcon,
+            current: this.state.current + 1
         });
     }
 
     componentWillMount() {
-        let { nr } = this.state;
-        this.pushData(nr);
+        let { current } = this.state;
+        this.pushData(current);
     }
 
     nextQuestion() {
-        let { nr, total } = this.state;
+        let { current, total } = this.state;
 
-        if(nr === total){
-            this.setState({
-                displayPopup: 'flex'
-            });
+        if(current === total){
+            console.log("Redirigir a Sientete segura");
         } else {
-            this.pushData(nr);
+            this.pushData(current);
             this.setState({
                 showButton: false,
                 questionAnswered: false,
@@ -57,29 +62,51 @@ export default class Main extends Component {
         })
     }
 
-    handleIncreaseScore() {
-            this.setState({
-            score: this.state.score + 1
+    handleIncreaseSkinScore(score) {
+        this.setState({
+            skinScore: this.state.skinScore + score
+        });
+    }
+
+    handleIncreaseSensibleSkinScore(score) {
+        this.setState({
+            sensibleSkinScore: this.state.sensibleSkinScore + score
         });
     }
 
     render() {
-        let { nr, total, question, answers, questionAnswered} = this.state;
+        let { 
+            current, 
+            total, 
+            question, 
+            answers, 
+            questionAnswered, 
+            skinType, 
+            sensibleSkin,
+            configStyle,
+            configIcon
+        } = this.state;
 
         return (
             <div className="container">
                 <div id="question" className="row">
                     <div  className="col-6 contenido">
                         <p className="pregunta" >{question}</p>
-                        <h4>{nr}/{total}</h4>
+                        <h4>{current}/{total}</h4>
                     </div>
                     <div className="col-6">
                         <Header/>
                         <Answers 
                             answers={answers}
                             showButton={this.nextQuestion} 
-                            isAnswered={questionAnswered} 
-                            increaseScore={this.handleIncreaseScore}/>
+                            isAnswered={questionAnswered}
+                            skinType={skinType}
+                            sensibleSkin={sensibleSkin}
+                            configStyle={configStyle}
+                            configIcon={configIcon}
+                            increaseSkinScore={this.handleIncreaseSkinScore}
+                            increaseSensibleSkinScore={this.handleIncreaseSensibleSkinScore}
+                            />
                         <Footer/>
                     </div>
                 </div>
