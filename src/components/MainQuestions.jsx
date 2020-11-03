@@ -15,7 +15,8 @@ export default class Main extends Component {
             skinType:[0,0,0,0],
             sensibleSkin:[0,0,0,0],
             skinScore: 0,
-            sensibleSkinScore: 0
+            sensibleSkinScore: 0,
+            configStyle: ['#D7CDC4' ,'#8F8070']
         }
         this.nextQuestion = this.nextQuestion.bind(this);
         this.handleShowButton = this.handleShowButton.bind(this);
@@ -73,6 +74,13 @@ export default class Main extends Component {
             sensibleSkinScore: this.state.sensibleSkinScore + score
         });
     }
+    
+    style(config){
+        return {
+            backgroundColor: config[0],
+            color: config[1]
+        }
+    }
 
     render() {
         let { 
@@ -89,7 +97,7 @@ export default class Main extends Component {
 
         return (
             <div className="container">
-                <div id="question" className="row">
+                <div id="question" className="row" style={this.style(configStyle)}>
                     <div  className="col-6 contenido">
                         <p className="pregunta" >{question}</p>
                         <h4>{current}/{total}</h4>

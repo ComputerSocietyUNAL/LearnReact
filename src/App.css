@@ -47,7 +47,7 @@ body {
   min-height: 70px;
   width: 98%;
   display: flex;
-  margin-bottom: 30px;
+  margin: 30px 10px;
   transition: color .3s ease, border-color .3s ease, transform .3s ease;
   cursor: pointer;
 }
