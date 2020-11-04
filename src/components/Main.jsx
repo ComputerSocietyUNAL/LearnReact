@@ -23,8 +23,8 @@ export default class Main extends Component {
         <Header/>
         <div className="container">
           <div className="row fondo">
-            <div className="col-6 contenido">
-              <p>¿Cual es mi tipo de piel y que producto debo utilizar?</p>
+            <div className="col-6 contenido" style={{padding:'50px'}}>
+              <p>¿Cuál es mi tipo de piel y qué producto debo utilizar?</p>
               <Link className="btn btn-light" to="/test">Empezar Test</Link>
             </div>
             <div className="col-6">

@@ -96,13 +96,13 @@ export default class Main extends Component {
         } = this.state;
 
         return (
-            <div className="container">
-                <div id="question" className="row" style={this.style(configStyle)}>
-                    <div  className="col-6 contenido">
+            <div className="container" >
+                <div id="question" className="row" >
+                    <div  className="col-md-6  contenido2" style={this.style(configStyle)}>
                         <p className="pregunta" >{question}</p>
                         <h4>{current}/{total}</h4>
                     </div>
-                    <div className="col-6">
+                    <div className="col-md-6">
                         <Header/>
                         <Answers 
                             answers={answers}
