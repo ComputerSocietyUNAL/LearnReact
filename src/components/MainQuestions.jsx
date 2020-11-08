@@ -4,7 +4,6 @@ import Answers from './Answers';
 import Footer from './Footer';
 import Header from './Header';
 
-
 export default class Main extends Component {
     constructor(props) {
         super(props);
@@ -96,15 +95,32 @@ export default class Main extends Component {
             configIcon
         } = this.state;
 
+        console.log(total)
+
         return (
-            <div className="container" >
+            <div>
+                <Header/>
                 <div id="question" className="row" >
                     <div  className="col-md-6  contenido2" style={this.style(configStyle)}>
                         <p className="pregunta" >{question}</p>
-                        <h4>{current}/{total}</h4>
+                        <div className="progressbar">
+                            <span className="dot" style={current > 0 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 1 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 2 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 3 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 4 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 5 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 6 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 7 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 8 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 9 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 10 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 11 ? this.style(configStyle) : {}} />
+                            <span className="dot" style={current > 12 ? this.style(configStyle) : {}} />
+                        </div>
+
                     </div>
                     <div className="col-md-6">
-                        <Header/>
                         <Answers 
                             answers={answers}
                             showButton={this.nextQuestion} 
@@ -116,9 +132,9 @@ export default class Main extends Component {
                             increaseSkinScore={this.handleIncreaseSkinScore}
                             increaseSensibleSkinScore={this.handleIncreaseSensibleSkinScore}
                             />
-                        <Footer/>
                     </div>
                 </div>
+                <Footer/>
             </div>
         );
     }

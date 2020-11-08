@@ -12,7 +12,6 @@ export const data = [
         skinType: [1,2,3,4],
         sensibleSkin: [0,0,0,0]
     },
-
     {
         configStyle: ['#C9D1D0' ,'#8F9A9A'],
         configIcon: ['N','G','T','N'],
