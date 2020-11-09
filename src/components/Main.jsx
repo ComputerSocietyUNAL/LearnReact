@@ -5,7 +5,6 @@ import Footer from "./Footer";
 import img from '../img/Recurso1.png';
 import img2 from '../img/Recurso2.png';
 
-
 export default class Main extends Component {
 
   randomImage(){

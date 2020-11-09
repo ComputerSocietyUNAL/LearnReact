@@ -6,7 +6,8 @@ import {
 } from 'react-router-dom';
 
 import Main from './components/Main';
-import MainQuestions from './components/MainQuestions';
+import Questionary from './components/Questionary/Questionary';
+import Result from "./components/Result";
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/test">            
-            <MainQuestions />
+            <Questionary />
+          </Route>
+          <Route path="/result">         
+            <Result />
           </Route>
           <Route path="/">
             <Main/>
