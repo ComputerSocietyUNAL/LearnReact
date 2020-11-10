@@ -4,6 +4,9 @@ import { data } from '../../data/data';
 import Answers from './Answers';
 import Footer from '../Footer';
 import Header from '../Header';
+import { TransitionGroup } from 'react-transition-group';
+import { FadeTransform, Fade, Stagger } from 'react-animation-components';
+import { AnimateOnChange } from 'react-animation';
 
 class Questionary extends Component {
     constructor(props) {
@@ -104,46 +107,55 @@ class Questionary extends Component {
             configIcon
         } = this.state;
 
-        return (
+    return (
+        <TransitionGroup>
             <div className="container">
                 <Header/>
-                <div id="question" className="row" >
-                    <div  className="col-md-6  contenido2" style={this.style(configStyle)}>
-                        <p className="pregunta" >{question}</p>
-                        <div className="progressbar">
-                            <span className="dot" style={current > 0 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 1 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 2 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 3 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 4 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 5 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 6 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 7 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 8 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 9 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 10 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 11 ? this.style(configStyle) : {}} />
-                            <span className="dot" style={current > 12 ? this.style(configStyle) : {}} />
+                <Stagger in>
+                <Fade in>
+                    <div id="question" className="row" >
+                        <div  className="col-md-6  contenido2" style={this.style(configStyle)}>
+                            <AnimateOnChange durationOut="500">
+                            <p className="pregunta" >{question}</p>
+                            </AnimateOnChange>
+                            <div className="progressbar">
+                                <span className="dot" style={current > 0 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 1 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 2 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 3 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 4 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 5 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 6 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 7 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 8 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 9 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 10 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 11 ? this.style(configStyle) : {}} />
+                                <span className="dot" style={current > 12 ? this.style(configStyle) : {}} />
+                            </div>
                         </div>
-
+                        <div className="col-md-6">
+                        <AnimateOnChange durationOut="500">
+                            <Answers 
+                                answers={answers}
+                                showButton={this.nextQuestion} 
+                                isAnswered={questionAnswered}
+                                skinType={skinType}
+                                sensibleSkin={sensibleSkin}
+                                configStyle={configStyle}
+                                configIcon={configIcon}
+                                increaseSkinScore={this.handleIncreaseSkinScore}
+                                increaseSensibleSkinScore={this.handleIncreaseSensibleSkinScore}
+                                />
+                        </AnimateOnChange>
+                        </div>
                     </div>
-                    <div className="col-md-6">
-                        <Answers 
-                            answers={answers}
-                            showButton={this.nextQuestion} 
-                            isAnswered={questionAnswered}
-                            skinType={skinType}
-                            sensibleSkin={sensibleSkin}
-                            configStyle={configStyle}
-                            configIcon={configIcon}
-                            increaseSkinScore={this.handleIncreaseSkinScore}
-                            increaseSensibleSkinScore={this.handleIncreaseSensibleSkinScore}
-                            />
-                    </div>
-                </div>
+                </Fade>
+                </Stagger>
                 <Footer/>
             </div>
-        );
+        </TransitionGroup>
+    );
     }
 }
 export default withRouter(Questionary);
