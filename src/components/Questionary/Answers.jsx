@@ -17,10 +17,10 @@ export default class Answers extends Component {
         let { isAnswered, skinType, sensibleSkin} = this.props;
         
         if(!isAnswered) {
-            let { increaseSkinScore, increaseSensibleSkinScore } = this.props;
+            let { increaseSkinScore, increaseSensibleSkinScore, showButton } = this.props;
             increaseSkinScore(skinType[idx]);
             increaseSensibleSkinScore(sensibleSkin[idx]);
-            this.props.showButton();
+            showButton();
         }
     }
 

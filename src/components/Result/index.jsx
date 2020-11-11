@@ -9,23 +9,22 @@ class Result extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: []
+            data: result
         }
     }
-
-    componentDidMount(){
-        this.setState({
-            data: result
-        });
-    }
-
+    
     render() {
+        /* console.log(this.state.data); */
         return(
             <React.Fragment>
-                <Header/>
+                <Header 
+                    state={this.props.location.state} 
+                    data={this.state.data}
+                />
                 <Footer/>
             </React.Fragment>
         )
     }
 }
+
 export default withRouter(Result);
