@@ -48,8 +48,9 @@ export default class Header extends Component{
                     <img className="Image contenido" src={this.ImageArray[idx]} alt="Imagen"></img>
                 </div>
                 <div className="col-6">
+                    <p>{data[idx].inicio}</p>
                     <h1>{data[idx].skinResult}</h1>
-                    <p>{data[idx].description}</p>
+                    <p> <strong>Piel {data[idx].skinResult}: </strong>{data[idx].description}</p>
                 </div>
             </div>
         )
