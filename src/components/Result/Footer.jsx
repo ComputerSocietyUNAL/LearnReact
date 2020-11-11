@@ -9,7 +9,7 @@ export default class Footer extends Component{
                 <div className="row justify-content-center">
                     <div className="col-lg-4">
                         <footeranswer>
-                            <Link className="btn btn-light"  style={{margin:'20px', width:'auto'}}>Ingresa aqui</Link>
+                            <Link className="btn btn-light"  style={{margin:'20px', width:'auto', backgroundColor:'#13AAB2', color:'#FFFFFF'}}>Ingresa aqui</Link>
                             <p>Para agendar tu cita, nuestro equipo de dermoconsejeros te compartirá los mejores consejos y te guiará para encontrar los productos diseñados para tu tipo de piel.</p>
                         </footeranswer>
                     </div>
