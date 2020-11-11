@@ -1,16 +1,23 @@
 import React, {Component} from 'react';
-import footer from '../../img/footer.png';
+import { Link } from 'react-router-dom';
+import DermoConsejos from '../../img/DermoConsejos.png';
 
 export default class Footer extends Component{
     render() {
         return (
-            <footer>
-                <a className="btn btn-social-icon btn-facebook" href="htttp://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a>
-                <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
-                <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
-                <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram"></i></a>
-                <img className="footer" src={footer} alt="Imagen" height={80}></img>
-            </footer>
+            <div className="footeranswer">
+                <div className="row justify-content-center">
+                    <div className="col-lg-4">
+                    <footeranswer>
+                        <Link className="btn btn-light"  style={{margin:'20px', width:'auto'}}>Ingresa aqui</Link>
+                        <p>Para agendar tu cita, nuestro equipo de dermoconsejeros te compartirá los mejores consejos y te guiará para encontrar los productos diseñados para tu tipo de piel.</p>
+                    </footeranswer>
+                    </div>
+                    <div className="col-lg-4">
+                    <img  src={DermoConsejos} alt="Imagen" height={200}></img>
+                    </div>
+                </div>
+            </div>
         )
     }
 };

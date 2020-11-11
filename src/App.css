@@ -108,6 +108,13 @@ footer {
   text-align: end;
 }
 
+.footeranswer{
+  background-color: #C7E5E9;
+  color: #62788D;
+  padding: 10px;
+  text-align: start;
+}
+
 footer p {
   margin: 0;
 }
