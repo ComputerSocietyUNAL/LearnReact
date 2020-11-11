@@ -4,6 +4,7 @@ import { withRouter } from 'react-router-dom';
 import { result } from '../../data/result';
 import Header from './Header';
 import Footer from "./Footer";
+import Main from './Main';
 
 class Result extends Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class Result extends Component {
                     state={this.props.location.state} 
                     data={this.state.data}
                 />
+                <Main/>
                 <Footer/>
             </React.Fragment>
         )

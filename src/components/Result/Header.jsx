@@ -50,6 +50,7 @@ export default class Header extends Component{
                 <div className="col-6">
                     <p>{data[idx].inicio}</p>
                     <h1>{data[idx].skinResult}</h1>
+                    <hr/>
                     <p> <strong>Piel {data[idx].skinResult}: </strong>{data[idx].description}</p>
                 </div>
             </div>

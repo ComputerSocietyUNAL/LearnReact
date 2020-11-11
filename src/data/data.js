@@ -1,15 +1,3 @@
-/*  
-    Rangos SkinType
-        7-9 muy seca
-        10-12 Seca
-        13-16 Grasa
-        17-24 Mixta
-        25-29 Normal
-    Rangos sensibleSkin
-        0-1 No
-        2-4 Si 
-*/    
-
 export const data = [
     {
         //configStyle:[ colorFondo,colorLetra ] en hexadecimal con #
@@ -156,4 +144,12 @@ export const data = [
         skinType: [0,0,0,0],
         sensibleSkin: [1,1,0,0]
     }
-];
+];/*Rangos SkinType
+           7-9 muy seca
+         10-12 Seca
+         13-16 Grasa
+         17-24 Mixta
+         25-29 Normal
+    Rangos sensibleSkin
+            0-1 No
+            2-4 Si */    
