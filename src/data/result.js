@@ -1,3 +1,15 @@
+/*
+    Rangos SkinType
+        7-9 muy seca
+        10-12 Seca
+        13-16 Grasa
+        17-24 Mixta
+        25-29 Normal
+    Rangos sensibleSkin
+        0-1 No
+        2-4 Si 
+*/
+
 export const result = [
     {
         //configStyle:[ colorFondo,colorLetra ] en hexadecimal con #, adicionalmente el color de la letra es del subfondo
@@ -41,6 +53,46 @@ export const result = [
             {
                 description: 'Cetaphil® Loción Ultrahumectante 473 mL',
                 image: 'Producto8.png'
+            }
+            
+        ],
+        solarProtection: [
+            {
+                description: 'Cetaphil® Gel Ligero 100 mL',
+                image: 'Producto9.png'
+            }
+            
+        ]
+        
+    },
+    {
+        configStyle: ['#D7CDC4' ,'#8F8070'],
+        skinIcon: 'PielMuySeca.png',  
+        inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
+        skinResult: 'Muy seca',
+        description: 'Piel muy seca:  tu piel es muy propensa al enrojecimiento, tirantez y picor. Además, puede llegar a agrietarse produciendo descamación. Como su barrera cutánea no funciona bien, es más fácil la pérdida de agua. Debes hidratar tu piel día y noche para calmar la sensación de tirantez.' ,
+        clean: [
+            {
+                description: 'Cetaphil® Toallitas de Limpieza Facial',
+                image: 'Producto1.png'
+            },
+            {
+                description: 'Cetaphil® Loción Limpiadora',
+                image: 'Producto5.png'
+            },
+            {
+                description: 'Cetaphil® Limpiador PRO AD Control',
+                image: 'Producto9.png'
+            }
+        ],
+        hydration: [
+            {
+                description: 'Cetaphil® Hidratante Facial diario FPS 50',
+                image: 'Producto10.png'
+            },
+            {
+                description: 'Cetaphil® Hidratante PRO AD Control',
+                image: 'Producto11.png'
             }
             
         ],
@@ -106,46 +158,6 @@ export const result = [
     },
     {
         configStyle: ['#D7CDC4' ,'#8F8070'],
-        skinIcon: 'PielMuySeca.png',  
-        inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
-        skinResult: 'Muy seca',
-        description: 'Piel muy seca:  tu piel es muy propensa al enrojecimiento, tirantez y picor. Además, puede llegar a agrietarse produciendo descamación. Como su barrera cutánea no funciona bien, es más fácil la pérdida de agua. Debes hidratar tu piel día y noche para calmar la sensación de tirantez.' ,
-        clean: [
-            {
-                description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: 'Producto1.png'
-            },
-            {
-                description: 'Cetaphil® Loción Limpiadora',
-                image: 'Producto5.png'
-            },
-            {
-                description: 'Cetaphil® Limpiador PRO AD Control',
-                image: 'Producto9.png'
-            }
-        ],
-        hydration: [
-            {
-                description: 'Cetaphil® Hidratante Facial diario FPS 50',
-                image: 'Producto10.png'
-            },
-            {
-                description: 'Cetaphil® Hidratante PRO AD Control',
-                image: 'Producto11.png'
-            }
-            
-        ],
-        solarProtection: [
-            {
-                description: 'Cetaphil® Gel Ligero 100 mL',
-                image: 'Producto9.png'
-            }
-            
-        ]
-        
-    },
-    {
-        configStyle: ['#D7CDC4' ,'#8F8070'],
         skinIcon: 'PielGrasa.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Grasa',
@@ -184,53 +196,6 @@ export const result = [
                 description: 'Cetaphil® Oil Control con y sin color',
                 image: 'Producto14.png'
             }
-            
-        ]
-    },
-    {
-        configStyle: ['#D7CDC4' ,'#8F8070'],
-        skinIcon: 'PielNormal.png',  
-        inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
-        skinResult: 'Normal',
-        description: 'Piel normal: tu piel es suave, no se irrita con facilidad ni produce sebo en exceso. Tiene buena circulación sanguínea, no presenta aspereza sino por el contrario se siente suave y lisa.' ,
-        clean: [
-            {
-                description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: 'Producto1.png'
-            },
-            {
-                description: 'Cetaphil® Espuma de Limpieza Suave',
-                image: 'Producto2.png'
-            },
-            {
-                description: 'Cetaphil® Exfoliante Ultra Suave',
-                image: 'Producto3.png'
-            },
-            {
-                description: 'Cetaphil® Barra Limpieza Profunda',
-                image: 'Producto4.png'
-            }
-        ],
-        hydration: [
-            {
-                description: 'Cetaphil® Loción Facial Hidratante de día',
-                image: 'Producto6.png'
-            },
-            {
-                description: 'Cetaphil® Loción Facial Hidratante de noche',
-                image: 'Producto7.png'
-            },
-            {
-                description: 'Cetaphil® Loción Ultrahumectante 473 mL',
-                image: 'Producto8.png'
-            }
-            
-        ],
-        solarProtection: [
-            {
-                description: 'Cetaphil® Oil Control con y sin color',
-                image: 'Producto14.png'
-            },
             
         ]
     },
@@ -281,13 +246,51 @@ export const result = [
             
         ]
     },
-    /*Rangos SkinType
-           7-9 muy seca
-         10-12 Seca
-         13-16 Grasa
-         17-24 Mixta
-         25-29 Normal
-    Rangos sensibleSkin
-            0-1 No
-            2-4 Si */
+    {
+        configStyle: ['#D7CDC4' ,'#8F8070'],
+        skinIcon: 'PielNormal.png',  
+        inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
+        skinResult: 'Normal',
+        description: 'Piel normal: tu piel es suave, no se irrita con facilidad ni produce sebo en exceso. Tiene buena circulación sanguínea, no presenta aspereza sino por el contrario se siente suave y lisa.' ,
+        clean: [
+            {
+                description: 'Cetaphil® Toallitas de Limpieza Facial',
+                image: 'Producto1.png'
+            },
+            {
+                description: 'Cetaphil® Espuma de Limpieza Suave',
+                image: 'Producto2.png'
+            },
+            {
+                description: 'Cetaphil® Exfoliante Ultra Suave',
+                image: 'Producto3.png'
+            },
+            {
+                description: 'Cetaphil® Barra Limpieza Profunda',
+                image: 'Producto4.png'
+            }
+        ],
+        hydration: [
+            {
+                description: 'Cetaphil® Loción Facial Hidratante de día',
+                image: 'Producto6.png'
+            },
+            {
+                description: 'Cetaphil® Loción Facial Hidratante de noche',
+                image: 'Producto7.png'
+            },
+            {
+                description: 'Cetaphil® Loción Ultrahumectante 473 mL',
+                image: 'Producto8.png'
+            }
+            
+        ],
+        solarProtection: [
+            {
+                description: 'Cetaphil® Oil Control con y sin color',
+                image: 'Producto14.png'
+            },
+            
+        ]
+    }
 ]

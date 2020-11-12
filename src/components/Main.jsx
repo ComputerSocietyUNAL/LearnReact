@@ -9,7 +9,7 @@ export default class Main extends Component {
 
   randomImage(){
     let random = Math.floor(Math.random() * 13);
-    console.log(random)
+    // console.log(random)
     if(random % 2 === 0){
       return img
     } else {
