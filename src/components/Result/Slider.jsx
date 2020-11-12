@@ -25,10 +25,10 @@ export default class SimpleSlider extends Component {
                 slidesToSlide: 1 // optional, default to 1.
               }
         };
-        var numbers= [1,2,3,4];
+        var numbers= [1,2,3];
         var products;
         var idx = -1; // falta definir como pasar este valor :v
-        var id= 0; //toca mirar segun logica si es igual a idx 
+        var id= 2; //toca mirar segun logica si es igual a idx 
         return(
             <div className="container">
                 <Carousel

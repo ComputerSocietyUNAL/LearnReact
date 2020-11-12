@@ -22,7 +22,7 @@ export default class Product extends Component {
         return(
             <Card style={{backgroundColor:"#DADEE2"}}>
                 <div className="trapezoid"><p 
-                style={{margin:"20%",fontSize:"20px",color:"white"}}>{dato.type}</p></div>
+                style={{margin:"6%",fontSize:"15px",color:"white"}}>{dato.type}</p></div>
                 <CardImg src={dato.image} alt="" />
                 <CardBody style={{backgroundColor:"#C4CDD5"}}>
                     <CardText>
