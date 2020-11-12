@@ -2,12 +2,7 @@ import React,  { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import Product from './Product';
 
-import Producto1 from '../../img/Producto1.png'
-import Producto2 from '../../img/Producto2.png'
-import Producto3 from '../../img/Producto3.png'
-import Producto4 from '../../img/Producto4.png'
-import Producto5 from '../../img/Producto5.png'
-import Producto6 from '../../img/Producto6.png'
+
 
 import "react-multi-carousel/lib/styles.css";
 
@@ -30,14 +25,16 @@ export default class SimpleSlider extends Component {
                 slidesToSlide: 1 // optional, default to 1.
               }
         };
+        var numbers= [1,2,3,4];
+        var products;
         return(
             <div className="container">
                 <Carousel
                     arrows={true}
-                    showDots={false}
+                    showDots={true}
                     responsive={responsive}
                     ssr={true} // means to render carousel on server-side.
-                    infinite={true}
+                    infinite={false}
                     customTransition="all .4"
                     transitionDuration={500}
                     containerClass="carousel-container"
@@ -48,33 +45,13 @@ export default class SimpleSlider extends Component {
                     centerMode={false}
                     renderDotsOutside={false}
                     >
-                    <div style={{border:"solid 1px",borderColor:"black"}}>
-                        <Product data={this.props.data}/>
-                    </div>
-                    <div>
-                        <img src={Producto2} alt=""/>
-                    </div>
-                    <div>
-                        <img src={Producto3} alt=""/>
-                    </div>
-                    <div>
-                        <img src={Producto4} alt="" />
-                    </div>
-                    <div>
-                        
-                    </div>
-                    <div>
-                        <img src={Producto5} alt=""/>
-                    </div>
-                    <div>
-                        
-                    </div>
-                    <div>
-                        
-                    </div>
-                    <div>
-                        <img src={Producto6} alt=""/>
-                    </div>
+                    {products= numbers.map((number) => {
+                        return (
+                            <div>
+                                <Product data={this.props.data}/>
+                            </div>
+                        );
+                    })}
                 </Carousel>
             </div>
         );
