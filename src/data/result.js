@@ -22,7 +22,7 @@ export const result = [
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: 'Producto1.png'
+                image: '/assets/Producto1.png'
             },
             {
                 description: 'Cetaphil® Espuma de Limpieza Suave',

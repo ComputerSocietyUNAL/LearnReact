@@ -49,7 +49,7 @@ export default class SimpleSlider extends Component {
                     renderDotsOutside={false}
                     >
                     <div style={{border:"solid 1px",borderColor:"black"}}>
-                        <Product/>
+                        <Product data={this.props.data}/>
                     </div>
                     <div>
                         <img src={Producto2} alt=""/>

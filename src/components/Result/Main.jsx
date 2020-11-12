@@ -15,7 +15,7 @@ export default class Main extends Component {
                     <p>Aqui iria el slider ese culero :v</p>
                 </div>
                 <div className="justify-content-center">
-                    <SimpleSlider/>
+                    <SimpleSlider data={this.props.data}/>
                 </div>
                 <div className="row justify-content-center">
                     <Link className="btn btn-light" to="/home" style={{margin:'20px', width:'auto', backgroundColor:'#62788D', color:'#FFFFFF'}}>Descarga aquí tu resultado</Link>
