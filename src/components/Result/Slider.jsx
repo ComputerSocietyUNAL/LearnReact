@@ -25,10 +25,23 @@ export default class SimpleSlider extends Component {
                 slidesToSlide: 1 // optional, default to 1.
               }
         };
-        var numbers= [1,2,3];
+        
         var products;
         var idx = -1; // falta definir como pasar este valor :v
-        var id= 2; //toca mirar segun logica si es igual a idx 
+        var id= 0; //toca mirar segun logica si es igual a idx
+        var stage='clean';
+        var dato;
+        const data = this.props.data;
+        if (stage==='clean'){
+            dato=data[id].clean
+        }
+        if(stage==='hydration'){
+            dato=data[id].hydration
+        }
+        if(stage==='solarProtection'){
+            dato=data[id].solarProtection
+        }
+        var numbers= dato;
         return(
             <div className="container">
                 <Carousel
@@ -51,7 +64,7 @@ export default class SimpleSlider extends Component {
                         idx=idx+1
                         return (
                             <div>
-                                <Product data={this.props.data} id={id} idx={idx}/>
+                                <Product data={this.props.data} id={id} idx={idx} stage={stage}/>
                             </div>
                         );
                     })}
