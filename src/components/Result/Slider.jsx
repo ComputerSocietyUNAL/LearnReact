@@ -27,11 +27,13 @@ export default class SimpleSlider extends Component {
         };
         var numbers= [1,2,3,4];
         var products;
+        var idx = -1; // falta definir como pasar este valor :v
+        var id= 0; //toca mirar segun logica si es igual a idx 
         return(
             <div className="container">
                 <Carousel
                     arrows={true}
-                    showDots={true}
+                    showDots={false}
                     responsive={responsive}
                     ssr={true} // means to render carousel on server-side.
                     infinite={false}
@@ -45,10 +47,11 @@ export default class SimpleSlider extends Component {
                     centerMode={false}
                     renderDotsOutside={false}
                     >
-                    {products= numbers.map((number) => {
+                    {products= numbers.map(() => {
+                        idx=idx+1
                         return (
                             <div>
-                                <Product data={this.props.data}/>
+                                <Product data={this.props.data} id={id} idx={idx}/>
                             </div>
                         );
                     })}

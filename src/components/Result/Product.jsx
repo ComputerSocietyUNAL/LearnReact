@@ -7,17 +7,26 @@ export default class Product extends Component {
     render(){
 
         const data = this.props.data;
-        const idx = 0; // falta definir como pasar este valor :v
-        const id= 0; //toca mirar segun logica si es igual a idx 
-
+        const id = this.props.id;
+        const idx = this.props.idx;
+        var stage='clean';
+        if (stage=='clean'){
+            var dato=data[id].clean[idx]
+        }
+        if(stage=='hydration'){
+            var dato=data[id].hydration[idx]
+        }
+        if(stage=='solarProtection'){
+            var dato=data[id].solarProtection[idx]
+        }
         return(
             <Card style={{backgroundColor:"#DADEE2"}}>
                 <div className="trapezoid"><p 
-                style={{margin:"20%",fontSize:"20px",color:"white"}}>{data[id].clean[idx].type}</p></div>
-                <CardImg src={data[id].clean[idx].image} alt="" />
+                style={{margin:"20%",fontSize:"20px",color:"white"}}>{dato.type}</p></div>
+                <CardImg src={dato.image} alt="" />
                 <CardBody style={{backgroundColor:"#C4CDD5"}}>
                     <CardText>
-                        {data[id].clean[idx].description}
+                        {dato.description}
                     </CardText>
                 </CardBody>
             </Card>
