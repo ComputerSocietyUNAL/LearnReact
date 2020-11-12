@@ -13,7 +13,7 @@ export default class Product extends Component {
         return(
             <Card style={{backgroundColor:"#DADEE2"}}>
                 <div className="trapezoid"><p 
-                style={{margin:"20%",fontSize:"20px",color:"white"}}>Cuerpo</p></div>
+                style={{margin:"20%",fontSize:"20px",color:"white"}}>{data[id].clean[idx].type}</p></div>
                 <CardImg src={data[id].clean[idx].image} alt="" />
                 <CardBody style={{backgroundColor:"#C4CDD5"}}>
                     <CardText>
