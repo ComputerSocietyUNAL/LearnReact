@@ -1,5 +1,6 @@
 import React,  { Component } from 'react';
 import Carousel from "react-multi-carousel";
+import Product from './Product';
 
 import Producto1 from '../../img/Producto1.png'
 import Producto2 from '../../img/Producto2.png'
@@ -20,8 +21,8 @@ export default class SimpleSlider extends Component {
               },
               tablet: {
                 breakpoint: { max: 1024, min: 464 },
-                items: 2,
-                slidesToSlide: 2 // optional, default to 1.
+                items: 3,
+                slidesToSlide: 3 // optional, default to 1.
               },
               mobile: {
                 breakpoint: { max: 464, min: 0 },
@@ -40,7 +41,7 @@ export default class SimpleSlider extends Component {
                     customTransition="all .4"
                     transitionDuration={500}
                     containerClass="carousel-container"
-                    removeArrowOnDeviceType={["tablet", "mobile"]}
+                    removeArrowOnDeviceType={[ "mobile"]}
                     deviceType={this.props.deviceType}
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
@@ -48,7 +49,7 @@ export default class SimpleSlider extends Component {
                     renderDotsOutside={false}
                     >
                     <div style={{border:"solid 1px",borderColor:"black"}}>
-                        <img src={Producto1} alt=""/>
+                        <Product/>
                     </div>
                     <div>
                         <img src={Producto2} alt=""/>
