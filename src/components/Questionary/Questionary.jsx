@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
+import { TransitionGroup } from 'react-transition-group';
+import { Fade, Stagger } from 'react-animation-components';
+import { AnimateOnChange } from 'react-animation';
 import { data } from '../../data/data';
 import Answers from './Answers';
 import Footer from '../Footer';
 import Header from '../Header';
-import { TransitionGroup } from 'react-transition-group';
-import { Fade, Stagger } from 'react-animation-components';
-import { AnimateOnChange } from 'react-animation';
 
 class Questionary extends Component {
     constructor(props) {

@@ -1,9 +1,6 @@
 import React,  { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import Product from './Product';
-
-
-
 import "react-multi-carousel/lib/styles.css";
 
 export default class SimpleSlider extends Component {
@@ -26,22 +23,11 @@ export default class SimpleSlider extends Component {
               }
         };
         
-        var products;
         var idx = -1; // falta definir como pasar este valor :v
-        var id= 0; //toca mirar segun logica si es igual a idx
-        var stage='clean';
-        var dato;
+        var id = 0; //toca mirar segun logica si es igual a idx
+        const { stage } = this.props;
         const data = this.props.data;
-        if (stage==='clean'){
-            dato=data[id].clean
-        }
-        if(stage==='hydration'){
-            dato=data[id].hydration
-        }
-        if(stage==='solarProtection'){
-            dato=data[id].solarProtection
-        }
-        var numbers= dato;
+
         return(
             <div className="container" style={{width:"100vh"}}>
                 <Carousel
@@ -61,14 +47,16 @@ export default class SimpleSlider extends Component {
                     centerMode={false}
                     renderDotsOutside={false}
                     >
-                    {products= numbers.map(() => {
-                        idx=idx+1
-                        return (
-                            <div>
-                                <Product data={this.props.data} id={id} idx={idx} stage={stage}/>
-                            </div>
-                        );
-                    })}
+                    { 
+                        data[id][stage].map(() => {
+                            idx=idx+1
+                            return (
+                                <div>
+                                    <Product data={this.props.data} id={id} idx={idx} stage={stage}/>
+                                </div>
+                            );
+                        })
+                    }
                 </Carousel>
             </div>
         );
