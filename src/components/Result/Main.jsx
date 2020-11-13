@@ -31,7 +31,8 @@ export default class Main extends Component {
             skinScore,
             //sensibleSkinScore 
         } = this.props.state;
-        const idx = this.skinType(skinScore);
+        const id = this.skinType(skinScore);
+        const idx =id
         return(
             <div className="container">
                 <div className="row justify-content-center">
@@ -57,7 +58,7 @@ export default class Main extends Component {
                     </Button>
                 </div>
                 <div className="justify-content-center">
-                    <SimpleSlider data={this.props.data} stage={this.state.stage}/>
+                    <SimpleSlider data={this.props.data} stage={this.state.stage} id={id}/>
                 </div>
                 <div className="row justify-content-center">
                     <Link 
