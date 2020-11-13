@@ -5,10 +5,10 @@ export default class Footer extends Component{
     render() {
         return (
             <footer>
-                <a className="btn btn-social-icon btn-facebook" href="htttp://www.facebook.com/profile.php?id="><i className="fa fa-facebook"></i></a>
+                <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/cetaphilcolombia"><i className="fa fa-facebook"></i></a>
                 <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter"></i></a>
-                <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube"></i></a>
-                <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram"></i></a>
+                <a className="btn btn-social-icon btn-google" href="https://www.youtube.com/user/GaldermaColombia"><i className="fa fa-youtube"></i></a>
+                <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/cetaphilcol/"><i className="fa fa-instagram"></i></a>
                 <img className="footer" src={footer} alt="Imagen" height={80}></img>
             </footer>
         )
