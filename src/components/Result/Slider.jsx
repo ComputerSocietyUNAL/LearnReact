@@ -43,13 +43,14 @@ export default class SimpleSlider extends Component {
         }
         var numbers= dato;
         return(
-            <div className="container">
+            <div className="container" style={{width:"100vh"}}>
                 <Carousel
                     arrows={true}
                     showDots={false}
                     responsive={responsive}
                     ssr={true} // means to render carousel on server-side.
                     infinite={false}
+                    draggable={false}
                     customTransition="all .4"
                     transitionDuration={500}
                     containerClass="carousel-container"

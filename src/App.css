@@ -138,6 +138,13 @@ footer span {
   margin: auto;
   align-content: center;
 }
+.headerContenido {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0px;
+  align-content: center;
+}
 
 .contenido2 {
   width: 100%;
@@ -213,6 +220,10 @@ footer span {
   text-align: center;
   margin:0px ;
   padding:0px; /*no mover de 0px se DAÑA :v*/
+}
+.CardStyle {
+  width: 90%;
+  height: 30%;
 }
 /* .trapezoid {
   width: 100px;

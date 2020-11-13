@@ -43,15 +43,17 @@ export default class Header extends Component{
         /* console.log(data); */
         
         return (
-            <div className="row fondo">
-                <div className="col-6 contenido text-center" style={{padding:'50px'}}>
-                    <img className="Image contenido" src={this.ImageArray[idx]} alt="Imagen"></img>
-                </div>
-                <div className="col-6">
-                    <p>{data[idx].inicio}</p>
-                    <h1>{data[idx].skinResult}</h1>
-                    <hr/>
-                    <p> <strong>Piel {data[idx].skinResult}: </strong>{data[idx].description}</p>
+            <div>
+                <div className="row fondo justify-content-center">
+                    <div className="col-6 headerContenido text-center" style={{padding:'30px'}}>
+                        <img className="Image contenido" src={this.ImageArray[idx]} alt="Imagen" style={{width:"50%"}}></img>
+                    </div>
+                    <div className="col-6" style={{paddingRight:"30vh"}}>
+                        <p>{data[idx].inicio}</p>
+                        <h1>{data[idx].skinResult}</h1>
+                        <hr/>
+                        <p> <strong>Piel {data[idx].skinResult}: </strong>{data[idx].description}</p>
+                    </div>
                 </div>
             </div>
         )

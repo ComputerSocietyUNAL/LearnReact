@@ -18,7 +18,7 @@ export const result = [
         skinIcon: 'PielSensible.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Sensible',
-        description: 'Piel sensible: tu piel se irrita con facilidad y está expuesta a agentes sensibilizantes a las que puede mostrar signos de alergia. Necesitas una humectación eficaz que ayude a preservar la barrera de tu piel y disminuir molestias mayores.' ,
+        description: 'tu piel se irrita con facilidad y está expuesta a agentes sensibilizantes a las que puede mostrar signos de alergia. Necesitas una humectación eficaz que ayude a preservar la barrera de tu piel y disminuir molestias mayores.' ,
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
@@ -79,7 +79,7 @@ export const result = [
         skinIcon: 'PielMuySeca.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Muy seca',
-        description: 'Piel muy seca:  tu piel es muy propensa al enrojecimiento, tirantez y picor. Además, puede llegar a agrietarse produciendo descamación. Como su barrera cutánea no funciona bien, es más fácil la pérdida de agua. Debes hidratar tu piel día y noche para calmar la sensación de tirantez.' ,
+        description: 'tu piel es muy propensa al enrojecimiento, tirantez y picor. Además, puede llegar a agrietarse produciendo descamación. Como su barrera cutánea no funciona bien, es más fácil la pérdida de agua. Debes hidratar tu piel día y noche para calmar la sensación de tirantez.' ,
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
@@ -125,7 +125,7 @@ export const result = [
         skinIcon: 'PielSeca.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Seca',
-        description: 'Piel seca:  tu piel no produce los niveles de grasa normales y por eso la puedes sentir áspera y con tirantez. Si está excesivamente deshidratada puede volverse frágil. Necesitas una rutina de cuidado que se fundamente en una buena hidratación.' ,
+        description: 'tu piel no produce los niveles de grasa normales y por eso la puedes sentir áspera y con tirantez. Si está excesivamente deshidratada puede volverse frágil. Necesitas una rutina de cuidado que se fundamente en una buena hidratación.' ,
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
@@ -180,7 +180,7 @@ export const result = [
         skinIcon: 'PielGrasa.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Grasa',
-        description: 'Piel grasa: tu piel es un poco más gruesa y presenta brillo tanto en tu zona T como en las mejillas. Hay factores como la edad, la genética, las hormonas, la alimentación, el estrés o incluso algunas sustancias que se aplican en la piel, y pueden ocasionar piel grasa y con barros o espinillas. La limpieza y exfoliación en tu rutina de cuidado es fundamental.' ,
+        description: 'tu piel es un poco más gruesa y presenta brillo tanto en tu zona T como en las mejillas. Hay factores como la edad, la genética, las hormonas, la alimentación, el estrés o incluso algunas sustancias que se aplican en la piel, y pueden ocasionar piel grasa y con barros o espinillas. La limpieza y exfoliación en tu rutina de cuidado es fundamental.' ,
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
@@ -230,7 +230,7 @@ export const result = [
         skinIcon: 'PielMixta.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Mixta',
-        description: 'Piel mixta: como su nombre lo indica, tu piel presenta 2 patologías. En tu zona T (frente, nariz, mentón) produce más grasa. Sin embargo, en la parte de las mejillas puedes tener la piel normal o incluso seca y presentar irritación.' ,
+        description: ' como su nombre lo indica, tu piel presenta 2 patologías. En tu zona T (frente, nariz, mentón) produce más grasa. Sin embargo, en la parte de las mejillas puedes tener la piel normal o incluso seca y presentar irritación.' ,
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
@@ -285,7 +285,7 @@ export const result = [
         skinIcon: 'PielNormal.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Normal',
-        description: 'Piel normal: tu piel es suave, no se irrita con facilidad ni produce sebo en exceso. Tiene buena circulación sanguínea, no presenta aspereza sino por el contrario se siente suave y lisa.' ,
+        description: ' tu piel es suave, no se irrita con facilidad ni produce sebo en exceso. Tiene buena circulación sanguínea, no presenta aspereza sino por el contrario se siente suave y lisa.' ,
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',

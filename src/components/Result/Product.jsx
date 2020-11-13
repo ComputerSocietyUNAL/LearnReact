@@ -20,11 +20,11 @@ export default class Product extends Component {
             dato=data[id].solarProtection[idx]
         }
         return(
-            <Card style={{backgroundColor:"#DADEE2"}}>
+            <Card className="CardStyle" style={{backgroundColor:"#DADEE2"}}  >
                 <div className="trapezoid"><p style={{margin:"6%",fontSize:"15px",color:"white"}}>
                     {dato.type}
                 </p></div>
-                <CardImg src={dato.image} alt="" />
+                <CardImg src={dato.image} alt=""  />
                 <CardBody style={{backgroundColor:"#C4CDD5"}}>
                     <CardText>
                         {dato.description}
