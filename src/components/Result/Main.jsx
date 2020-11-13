@@ -5,15 +5,6 @@ import SimpleSlider from './Slider';
 
 export default class Main extends Component {
 
-    ImageArray = [ 
-        PielSensible,
-        PielMuySeca,
-        PielSeca,
-        PielGrasa,
-        PielMixta,
-        PielNormal
-    ];
-
     skinType(score){
         if(score <= 9){
             return 1
