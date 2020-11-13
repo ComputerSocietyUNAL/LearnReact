@@ -5,13 +5,42 @@ import SimpleSlider from './Slider';
 
 export default class Main extends Component {
 
+    ImageArray = [ 
+        PielSensible,
+        PielMuySeca,
+        PielSeca,
+        PielGrasa,
+        PielMixta,
+        PielNormal
+    ];
+
+    skinType(score){
+        if(score <= 9){
+            return 1
+        } else if (score <= 12) {
+            return 2
+        } else if (score <= 16) {
+            return 3
+        } else if (score <= 24) {
+            return 4
+        } else {
+            return 5
+        }
+    }
+
     constructor(props){
         super(props);
         this.state={
             stage: 'clean'
         };
     }
+
     render() {
+        const { 
+            skinScore,
+            //sensibleSkinScore 
+        } = this.props.state;
+        const idx = this.skinType(skinScore);
         return(
             <div className="container">
                 <div className="row justify-content-center">
@@ -43,7 +72,7 @@ export default class Main extends Component {
                     <Link 
                         className="btn btn-light"
                         target="_blank" 
-                        to={{pathname: "/assets/IngenieríaSistemasyComuptacion.pdf"}} 
+                        to={{pathname: this.props.data[idx].pdf}} 
                         style={{margin:'20px', width:'auto', backgroundColor:'#62788D', color:'#FFFFFF'}}>
                         Descarga aquí tu resultado
                     </Link>

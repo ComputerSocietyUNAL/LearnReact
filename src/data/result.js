@@ -18,6 +18,7 @@ export const result = [
         skinIcon: 'PielSensible.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Sensible',
+        pdf:"",
         description: 'tu piel se irrita con facilidad y está expuesta a agentes sensibilizantes a las que puede mostrar signos de alergia. Necesitas una humectación eficaz que ayude a preservar la barrera de tu piel y disminuir molestias mayores.' ,
         clean: [
             {
