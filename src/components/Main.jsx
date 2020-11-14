@@ -22,11 +22,11 @@ export default class Main extends Component {
       <React.Fragment>
         <Header/>
           <div className="row fondo" style={{margin:'auto', width:'95%'}}>
-            <div className="col-6 contenido text-center" style={{padding:'50px'}}>
-              <p>¿Cuál es mi tipo de piel y qué producto debo utilizar?</p>
+            <div className="col-md-6 contenido text-center" style={{padding:'50px'}}>
+              <p style={{color:"#8F8070"}}>¿Cuál es mi tipo de piel y qué producto debo utilizar?</p>
               <Link className="btn btn-light" to="/test" style={{margin:'auto', width:'30%'}}>Empezar Test</Link>
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <img className="Image contenido" src={this.randomImage()} alt="Imagen"></img>
             </div>
           </div>

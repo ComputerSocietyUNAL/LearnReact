@@ -42,17 +42,17 @@ export default class Main extends Component {
                 </div>
                 <div className="row " style={{width:"100vh", margin:"auto"}}>
                     <Button outline 
-                        style={{margin:"auto"}}
+                        style={{margin:"auto",marginBottom:"5vh"}}
                         onClick={ e => this.setState({ stage: "clean"})}> 
                         Limpieza 
                     </Button>
                     <Button outline 
-                        style={{margin:"auto"}}
+                        style={{margin:"auto",marginBottom:"5vh"}}
                         onClick={ e => this.setState({ stage: "hydration"})}> 
                         Hidratacion 
                     </Button>
                     <Button outline 
-                        style={{margin:"auto"}}
+                        style={{margin:"auto",marginBottom:"5vh"}}
                         onClick={ e => this.setState({ stage: "solarProtection"})}> 
                         Proteccion Solar 
                     </Button>
