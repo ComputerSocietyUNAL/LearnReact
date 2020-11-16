@@ -2,6 +2,7 @@ import React,  { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import Product from './Product';
 import "react-multi-carousel/lib/styles.css";
+import { CardDeck } from 'reactstrap'
 
 export default class SimpleSlider extends Component {
     render(){
@@ -29,7 +30,7 @@ export default class SimpleSlider extends Component {
         let idx = -1/* (this.props.idx -1) */; // falta definir como pasar este valor :v
 
         return(
-            <div className="container" style={{width:"100vh"}}>
+            <div className="container" style={{width:"56vw",height:"55vh"}}>
                 <Carousel
                     arrows={true}
                     showDots={false}

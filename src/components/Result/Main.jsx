@@ -39,7 +39,9 @@ export default class Main extends Component {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-4">
-                        <h3 style={{color:'#627892',textAlign:'center'}}>Los productos que te recomendamos para tu rutina de cuidado diario son:</h3> 
+                        <h3 style={{color:'#627892',textAlign:'center',fontFamily:"Poppins-SemiBold"}}>
+                            Los productos que te recomendamos para tu rutina de cuidado diario son:
+                        </h3> 
                     </div>
                 </div>
                 <div className="row " style={{width:"100vh", margin:"auto"}}>
@@ -67,7 +69,7 @@ export default class Main extends Component {
                         className="btn btn-light"
                         target="_blank" 
                         to={{pathname: this.props.data[idx].pdf}} 
-                        style={{margin:'20px', width:'auto', backgroundColor:'#62788D', color:'#FFFFFF'}}>
+                        style={{margin:'20px', width:'auto', backgroundColor:'#62788D', color:'#FFFFFF',fontFamily:"Poppins-SemiBold"}}>
                         Descarga aquí tu resultado
                     </Link>                    
                 </div>
