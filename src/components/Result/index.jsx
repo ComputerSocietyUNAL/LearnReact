@@ -24,7 +24,8 @@ class Result extends Component {
                 />
                 <Main
                     state={this.props.location.state} 
-                    data={this.state.data}/>
+                    data={this.state.data}
+                />
                 <Footer/>
             </React.Fragment>
         )

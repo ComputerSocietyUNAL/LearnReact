@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
+import Banner from './Banner';
 import SimpleSlider from './Slider';
 
 export default class Main extends Component {
@@ -29,11 +30,12 @@ export default class Main extends Component {
     render() {
         const { 
             skinScore,
-            //sensibleSkinScore 
+            sensibleSkinScore 
         } = this.props.state;
         const id = this.skinType(skinScore);
         const idx =id
         return(
+        <React.Fragment>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-4">
@@ -67,9 +69,13 @@ export default class Main extends Component {
                         to={{pathname: this.props.data[idx].pdf}} 
                         style={{margin:'20px', width:'auto', backgroundColor:'#62788D', color:'#FFFFFF'}}>
                         Descarga aquí tu resultado
-                    </Link>
+                    </Link>                    
                 </div>
             </div>
+                <Banner 
+                sensibleSkinScore={sensibleSkinScore}
+                />
+        </React.Fragment>
         );
     }
 }
