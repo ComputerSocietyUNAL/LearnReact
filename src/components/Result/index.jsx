@@ -20,6 +20,7 @@ class Result extends Component {
     changeSensibleScore = (event) => {
         // console.log(event);
         this.setState({sensibleSkinScore : 0});
+        window.scrollTo(0, 0);
     }
 
     render() {
