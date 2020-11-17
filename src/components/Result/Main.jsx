@@ -18,16 +18,11 @@ export default class Main extends Component {
             return 5
         }
     }
-    onBtnClk(rSelected){
-        this.setState({rSelected});
-    }
-
     constructor(props){
         super(props);
         this.state={
             stage: 'clean'
         };
-        this.onBtnClk= this.onBtnClk.bind(this);
     }
 
     render() {
@@ -40,35 +35,32 @@ export default class Main extends Component {
         <React.Fragment>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-4">
+                    <div className="col-md-5">
                         <h3 style={{color:'#627892',textAlign:'center',fontFamily:"Poppins-SemiBold",marginTop:"10px"}}>
                             Los productos que te recomendamos para tu rutina de cuidado diario son:
                         </h3> 
                     </div>
                 </div>
-                <div className="row " style={{width:"100vh", margin:"auto"}}>
+                <div className="row col-md-8 justify-content-center" style={{width:"100vw",margin:"auto"}}>
                     <Button outline
                         aria-pressed="true"
-                        active={this.state.rSelected === 1}
+                        active={this.state.stage === 'clean'}
                         style={{margin:"auto",marginBottom:"5vh"}}
                         onClick={ e => {
-                            this.onBtnClk(1)
                             this.setState({ stage: "clean"})}}> 
                         Limpieza 
                     </Button>
                     <Button outline
-                        active={this.state.rSelected === 2}
+                        active={this.state.stage === 'hydration'}
                         style={{margin:"auto",marginBottom:"5vh"}}
                         onClick={ e => {
-                            this.onBtnClk(2)
                             this.setState({ stage: "hydration"})}}> 
                         Hidratacion 
                     </Button>
                     <Button outline
-                        active={this.state.rSelected === 3}
+                        active={this.state.stage === 'solarProtection'}
                         style={{margin:"auto",marginBottom:"5vh"}}
                         onClick={ e => {
-                            this.onBtnClk(3)
                             this.setState({ stage: "solarProtection"})}}> 
                         Proteccion Solar 
                     </Button>

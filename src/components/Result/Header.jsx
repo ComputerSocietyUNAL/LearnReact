@@ -42,16 +42,20 @@ export default class Header extends Component{
         const data = this.props.data;
         
         return (
-            <div>
-                <div className="row fondo justify-content-center" style={{backgroundColor:data[idx].configStyle[0],margin:"0px"}}>
-                    <div className="col-6 headerContenido text-center" style={{padding:'30px'}}>
-                        <img className="Image contenido" src={this.ImageArray[idx]} alt="Imagen" style={{width:"80%"}}></img>
+            <div >
+                <div className="row fondo justify-content-center " style={{backgroundColor:data[idx].configStyle[0],margin:"0px"}}>
+                    <div className="col-md-6 headerContenido text-center" style={{padding:'30px'}}>
+                        <img className="Image contenido" src={this.ImageArray[idx]} alt="Imagen" style={{width:"75%"}}></img>
                     </div>
-                    <div className="col-6" style={{paddingRight:"30vh", paddingTop:"5vw"}}>
+                    <div className="col-md-6" style={{paddingRight:"20vw", paddingTop:"5vw", paddingLeft:"5vw"}}>
                         <p style={{fontFamily:"Poppins-Medium",color:data[idx].configStyle[1]}}>
                             {data[idx].inicio}
                         </p>
-                        <h1 style={{fontFamily:"Poppins-Medium",fontSize:"131px",color:data[idx].configStyle[1]}}>
+                        <h1 style={{
+                            fontFamily:"Poppins-Medium",
+                            fontSize: 'calc(4rem + 4vw)',/*"11vw",8rem 131px*/
+                            color:data[idx].configStyle[1]}}
+                            /*131px*/>
                             {data[idx].skinResult}
                         </h1>
                         <hr/>
