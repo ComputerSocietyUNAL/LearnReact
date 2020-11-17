@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import PielGrasa from '../../img/PielGrasa.png';
-import PielMixta from '../../img/PielMixta.png';
-import PielMuySeca from '../../img/PielMuySeca.png';
-import PielNormal from '../../img/PielNormal.png';
-import PielSeca from '../../img/PielSeca.png';
-import PielSensible from "../../img/PielSensible.png";
+import PielGrasa from '../../img/PielGrasa.webp';
+import PielMixta from '../../img/PielMixta.webp';
+import PielMuySeca from '../../img/PielMuySeca.webp';
+import PielNormal from '../../img/PielNormal.webp';
+import PielSeca from '../../img/PielSeca.webp';
+import PielSensible from "../../img/PielSensible.webp";
 
 export default class Header extends Component{
 

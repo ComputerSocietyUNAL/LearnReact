@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import G from '../../img/Grasa.png';
-import T from '../../img/ZonaT.png';
-import N from '../../img/Normal.png';
+import G from '../../img/Grasa.webp';
+import T from '../../img/ZonaT.webp';
+import N from '../../img/Normal.webp';
 
 export default class Answers extends Component {
     constructor(props) {

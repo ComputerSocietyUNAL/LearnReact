@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from "./Footer";
-import img from '../img/Recurso1.png';
-import img2 from '../img/Recurso2.png';
+import img from '../img/Recurso1.webp';
+import img2 from '../img/Recurso2.webp';
 
 export default class Main extends Component {
 
@@ -24,7 +24,7 @@ export default class Main extends Component {
           <div className="row fondo" style={{margin:'auto', width:'95%'}}>
             <div className="col-md-6 contenido text-center" style={{padding:'50px'}}>
               <p style={{color:"#627892"}}>¿Cuál es mi tipo de piel y qué producto debo utilizar?</p>
-              <Link className="btn btn-light" to="/test" style={{margin:'auto', width:'35%',padding:"1%",backgroundColor:"grey"}}>Empezar Test</Link>
+              <Link className="btn btn-light" to="/test" style={{margin:'auto', width:'35%',padding:"1%",color:"blue"}}>Empezar Test</Link>
             </div>
             <div className="col-md-6">
               <img className="Image contenido" src={this.randomImage()} alt="Imagen"></img>

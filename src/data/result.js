@@ -15,7 +15,7 @@ export const result = [
         //configStyle:[ colorFondo,colorLetra ] en hexadecimal con #, adicionalmente el color de la letra es del subfondo
         //configIcon:[resp1,resp2,resp3,resp4] N:normal, G:grasa, T:Zona T. Todo se expresa en mayuscula 
         configStyle: ['#D5D9DD' ,'#62788D'],
-        skinIcon: 'PielSensible.png',  
+        skinIcon: 'PielSensible.webp',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Sensible',
         color: [
@@ -40,44 +40,44 @@ export const result = [
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: '/assets/Producto1.png',
+                image: '/assets/Producto1.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Espuma de Limpieza Suave',
-                image: '/assets/Producto2.png',
+                image: '/assets/Producto2.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Exfoliante Ultra Suave',
-                image: '/assets/Producto3.png',
+                image: '/assets/Producto3.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                image: '/assets/Producto4.png',
+                image: '/assets/Producto4.webp',
                 type: 'Cuerpo'
             },
             {
                 description: 'Cetaphil® Loción Limpiadora 473 mL',
-                image: '/assets/Producto5.png',
+                image: '/assets/Producto5.webp',
                 type: 'Cuerpo'
             }
         ],
         hydration: [
             {
                 description: 'Cetaphil® Loción Facial Hidratante de día',
-                image: '/assets/Producto6.png',
+                image: '/assets/Producto6.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Facial Hidratante de noche',
-                image: '/assets/Producto7.png',
+                image: '/assets/Producto7.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Ultrahumectante 473 mL',
-                image: '/assets/Producto8.png',
+                image: '/assets/Producto8.webp',
                 type: 'Cuerpo'
             }
             
@@ -85,7 +85,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Gel Ligero 100 mL',
-                image: '/assets/Producto9.png',
+                image: '/assets/Producto9.webp',
                 type: 'Rostro-Cuerpo'
             }
             
@@ -94,7 +94,7 @@ export const result = [
     },
     {
         configStyle: ['#D6DBD9' ,'#7D8280'],
-        skinIcon: 'PielMuySeca.png',  
+        skinIcon: 'PielMuySeca.webp',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Muy seca',
         color: [
@@ -119,29 +119,29 @@ export const result = [
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: '/assets/Producto1.png',
+                image: '/assets/Producto1.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Limpiadora ',
-                image: '/assets/Producto5.png',
+                image: '/assets/Producto5.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Limpiador PRO AD Control',
-                image: '/assets/Producto9.png',
+                image: '/assets/Producto9.webp',
                 type: 'Cuerpo'
             }
         ],
         hydration: [
             {
                 description: 'Cetaphil® Hidratante Facial diario FPS 50',
-                image: '/assets/Producto10.png',
+                image: '/assets/Producto10.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Hidratante PRO AD Control',
-                image: '/assets/Producto11.png',
+                image: '/assets/Producto11.webp',
                 type: 'Cuerpo'
             }
             
@@ -149,7 +149,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Gel Ligero 100 mL',
-                image: '/assets/Producto9.png',
+                image: '/assets/Producto9.webp',
                 type: 'Cuerpo'
             }
             
@@ -158,7 +158,7 @@ export const result = [
     },
     {
         configStyle: ['#D5D9DD' ,'#62788D'],
-        skinIcon: 'PielSeca.png',  
+        skinIcon: 'PielSeca.webp',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Seca',
         color: [
@@ -183,39 +183,39 @@ export const result = [
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: '/assets/Producto1.png',
+                image: '/assets/Producto1.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Limpiadora',
-                image: '/assets/Producto5.png',
+                image: '/assets/Producto5.webp',
                 type: 'Rostro-Cuerpo'
             },
             {
                 description: 'Cetaphil® Exfoliante Ultra Suave',
-                image: '/assets/Producto3.png',
+                image: '/assets/Producto3.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                image: '/assets/Producto4.png',
+                image: '/assets/Producto4.webp',
                 type: 'Cuerpo'
             },
         ],
         hydration: [
             {
                 description: 'Cetaphil® Loción Facial Hidratante de día',
-                image: '/assets/Producto6.png',
+                image: '/assets/Producto6.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Facial Hidratante de noche',
-                image: '/assets/Producto7.png',
+                image: '/assets/Producto7.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Crema hidratante',
-                image: '/assets/Producto15.png',
+                image: '/assets/Producto15.webp',
                 type: 'Cuerpo'
             }
             
@@ -223,7 +223,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Gel Ligero 100 mL',
-                image: '/assets/Producto9.png',
+                image: '/assets/Producto9.webp',
                 type: 'Rostro-Cuerpo'
             }
             
@@ -231,7 +231,7 @@ export const result = [
     },
     {
         configStyle: ['#D8D5D9' ,'#887D7F'],
-        skinIcon: 'PielGrasa.png',  
+        skinIcon: 'PielGrasa.webp',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Grasa',
         color: [
@@ -256,34 +256,34 @@ export const result = [
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: '/assets/Producto1.png',
+                image: '/assets/Producto1.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® PRO AC Control Espuma',
-                image: '/assets/Producto12.png',
+                image: '/assets/Producto12.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Exfoliante Ultra Suave',
-                image: '/assets/Producto3.png',
+                image: '/assets/Producto3.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                image: '/assets/Producto4.png',
+                image: '/assets/Producto4.webp',
                 type: 'Cuerpo'
             }
         ],
         hydration: [
             {
                 description: 'Cetaphil® PRO AC Hidratante',
-                image: '/assets/Producto13.png',
+                image: '/assets/Producto13.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Emulsión Hidratante',
-                image: '/assets/Producto16.png',
+                image: '/assets/Producto16.webp',
                 type: 'Cuerpo'
             }
             
@@ -291,7 +291,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Oil Control con y sin color',
-                image: '/assets/Producto14.png',
+                image: '/assets/Producto14.webp',
                 type: 'Rostro'
             }
             
@@ -299,7 +299,7 @@ export const result = [
     },
     {
         configStyle: ['#D5D9DD' ,'#627889'],
-        skinIcon: 'PielMixta.png',  
+        skinIcon: 'PielMixta.webp',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Mixta',
         color: [
@@ -324,39 +324,39 @@ export const result = [
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: '/assets/Producto1.png',
+                image: '/assets/Producto1.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® PRO AC Control Espuma',
-                image: '/assets/Producto12.png',
+                image: '/assets/Producto12.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Exfoliante Ultra Suave',
-                image: '/assets/Producto3.png',
+                image: '/assets/Producto3.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                image: '/assets/Producto4.png',
+                image: '/assets/Producto4.webp',
                 type: 'Cuerpo'
             }
         ],
         hydration: [
             {
                 description: 'Cetaphil® Loción Facial Hidratante de día',
-                image: '/assets/Producto6.png',
+                image: '/assets/Producto6.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Facial Hidratante de noche',
-                image: '/assets/Producto7.png',
+                image: '/assets/Producto7.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Emulsión hidratante 473 mL',
-                image: '/assets/Producto17.png',
+                image: '/assets/Producto17.webp',
                 type: 'Cuerpo'
             }
             
@@ -364,7 +364,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Oil Control con y sin color',
-                image: '/assets/Producto14.png',
+                image: '/assets/Producto14.webp',
                 type: 'Rostro'
             },
             
@@ -372,7 +372,7 @@ export const result = [
     },
     {
         configStyle: ['#E6DDD4' ,'#8F8070'],
-        skinIcon: 'PielNormal.png', 
+        skinIcon: 'PielNormal.webp', 
         pdf : '/assets/Normal.pdf', 
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Normal',
@@ -397,39 +397,39 @@ export const result = [
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
-                image: '/assets/Producto1.png',
+                image: '/assets/Producto1.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Espuma de Limpieza Suave',
-                image: '/assets/Producto2.png',
+                image: '/assets/Producto2.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Exfoliante Ultra Suave',
-                image: '/assets/Producto3.png',
+                image: '/assets/Producto3.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                image: '/assets/Producto4.png',
+                image: '/assets/Producto4.webp',
                 type: 'Cuerpo'
             }
         ],
         hydration: [
             {
                 description: 'Cetaphil® Loción Facial Hidratante de día',
-                image: '/assets/Producto6.png',
+                image: '/assets/Producto6.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Facial Hidratante de noche',
-                image: '/assets/Producto7.png',
+                image: '/assets/Producto7.webp',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Ultrahumectante 473 mL',
-                image: '/assets/Producto8.png',
+                image: '/assets/Producto8.webp',
                 type: 'Cuerpo'
             }
             
@@ -437,7 +437,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Oil Control con y sin color',
-                image: '/assets/Producto14.png',
+                image: '/assets/Producto14.webp',
                 type: 'Rostro'
             },
             

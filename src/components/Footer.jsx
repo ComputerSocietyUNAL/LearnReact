@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import footer from '../img/footer.png';
+import footer from '../img/footer.webp';
 
 export default class Footer extends Component{
     render() {
