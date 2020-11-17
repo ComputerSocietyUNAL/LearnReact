@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
-import Banner from './Banner';
 import SimpleSlider from './Slider';
 
 export default class Main extends Component {
@@ -30,10 +29,9 @@ export default class Main extends Component {
     render() {
         const { 
             skinScore,
-            sensibleSkinScore 
-        } = this.props.state;
-        const id = this.skinType(skinScore);
-        const idx =id
+            sensibleSkinScore
+        } = this.props;
+        const idx = sensibleSkinScore > 1 ? 0 : this.skinType(skinScore);
         return(
         <React.Fragment>
             <div className="container">
@@ -62,7 +60,7 @@ export default class Main extends Component {
                     </Button>
                 </div>
                 <div className="justify-content-center">
-                    <SimpleSlider data={this.props.data} stage={this.state.stage} id={id}/>
+                    <SimpleSlider data={this.props.data} stage={this.state.stage} id={idx}/>
                 </div>
                 <div className="row justify-content-center">
                     <Link 
@@ -74,9 +72,6 @@ export default class Main extends Component {
                     </Link>                    
                 </div>
             </div>
-                <Banner 
-                sensibleSkinScore={sensibleSkinScore}
-                />
         </React.Fragment>
         );
     }

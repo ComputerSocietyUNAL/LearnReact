@@ -2,7 +2,6 @@ import React,  { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import Product from './Product';
 import "react-multi-carousel/lib/styles.css";
-import { CardDeck } from 'reactstrap'
 
 export default class SimpleSlider extends Component {
     render(){
@@ -47,7 +46,7 @@ export default class SimpleSlider extends Component {
                     itemClass="carousel-item-padding-40-px"
                     centerMode={false}
                     renderDotsOutside={false}
-                    >
+                >
                     { 
                         data[id][stage].map(() => {
                             idx=idx+1

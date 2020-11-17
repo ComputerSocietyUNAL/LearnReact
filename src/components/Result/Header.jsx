@@ -35,12 +35,11 @@ export default class Header extends Component{
         
         const { 
             skinScore,
-            //sensibleSkinScore 
-        } = this.props.state;
+            sensibleSkinScore 
+        } = this.props;
 
-        const idx = this.skinType(skinScore);
+        const idx = sensibleSkinScore > 1 ? 0 : this.skinType(skinScore);
         const data = this.props.data;
-        /* console.log(data); */
         
         return (
             <div>
