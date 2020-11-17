@@ -6,8 +6,8 @@ export default class Banner extends Component {
     render(){
         return(
             <div className="Banner" >
-                <div className="row">
-                    <div className="col-4">
+                <div className="row" style={{margin:"0px"}}>
+                    <div className="col-4" style={{padding:"0px"}}>
                         <img src="/assets/BannerIZQ.png" className="Banner-img" alt=""/>
                     </div>
                     {   this.props.sensibleSkinScore > 1 ?
@@ -27,7 +27,7 @@ export default class Banner extends Component {
                                 color:"white"}}>Rehacer Test</Link>
                         </div>
                     }
-                    <div className="col-4">
+                    <div className="col-4" style={{padding:"0px"}}>
                         <img src="/assets/BannerDER.png" className="Banner-img" alt=""/>
                     </div>
                 </div>

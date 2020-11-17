@@ -141,7 +141,6 @@ footer span {
 
 .fondo{
   background-color: #BFC8D0;
-  
 }
 
 .contenido {
@@ -224,8 +223,11 @@ footer span {
   width: 80%;
   height: 0px;
   border-right: 28px solid transparent;
-  border-left: 28px solid #62788D;
-  border-top: 35px solid #62788D;
+  border-left-width: 28px;
+  border-left-style: solid;
+  border-top-width: 35px;
+  border-top-style: solid;
+
   display: flex;
 	justify-content: center;
 	align-items: flex-end;
@@ -237,10 +239,9 @@ footer span {
   width: 90%;
   height: 35%;
 }
-
 .Banner {
   background-color: #D7DBDF;
-  width: auto;
+  width: 100%;
   height:auto;
 }
 .Banner-text {

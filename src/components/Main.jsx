@@ -23,7 +23,7 @@ export default class Main extends Component {
         <Header/>
           <div className="row fondo" style={{margin:'auto', width:'95%'}}>
             <div className="col-md-6 contenido text-center" style={{padding:'50px'}}>
-              <p style={{color:"#8F8070"}}>¿Cuál es mi tipo de piel y qué producto debo utilizar?</p>
+              <p style={{color:"#627892"}}>¿Cuál es mi tipo de piel y qué producto debo utilizar?</p>
               <Link className="btn btn-light" to="/test" style={{margin:'auto', width:'30%'}}>Empezar Test</Link>
             </div>
             <div className="col-md-6">

@@ -14,10 +14,27 @@ export const result = [
     {
         //configStyle:[ colorFondo,colorLetra ] en hexadecimal con #, adicionalmente el color de la letra es del subfondo
         //configIcon:[resp1,resp2,resp3,resp4] N:normal, G:grasa, T:Zona T. Todo se expresa en mayuscula 
-        configStyle: ['#D7CDC4' ,'#8F8070'],
+        configStyle: ['#D5D9DD' ,'#62788D'],
         skinIcon: 'PielSensible.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Sensible',
+        color: [
+            {//clean
+                colorFondo:"#DADEE2",
+                colorLetra:"#62788D",
+                colorDesc:"#C4CDD5"
+            },
+            {//hydration
+                colorFondo:"#DBE0DE",
+                colorLetra:"#7D8280",
+                colorDesc:"#CED6D5"
+            },
+            {//solarprotc
+                colorFondo:"#EBE2D9",
+                colorLetra:"#8F8070",
+                colorDesc:"#DCD2C9"
+            }
+        ],
         pdf : '/assets/Sensible.pdf',
         description: 'tu piel se irrita con facilidad y está expuesta a agentes sensibilizantes a las que puede mostrar signos de alergia. Necesitas una humectación eficaz que ayude a preservar la barrera de tu piel y disminuir molestias mayores.' ,
         clean: [
@@ -76,10 +93,27 @@ export const result = [
         
     },
     {
-        configStyle: ['#D7CDC4' ,'#8F8070'],
+        configStyle: ['#D6DBD9' ,'#7D8280'],
         skinIcon: 'PielMuySeca.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Muy seca',
+        color: [
+            {//clean
+                colorFondo:"#DADEE2",
+                colorLetra:"#62788D",
+                colorDesc:"#C4CDD5"
+            },
+            {//hydration
+                colorFondo:"#DBE0DE",
+                colorLetra:"#7D8280",
+                colorDesc:"#CED6D5"
+            },
+            {//solarprotc
+                colorFondo:"#EBE2D9",
+                colorLetra:"#8F8070",
+                colorDesc:"#DCD2C9"
+            }
+        ],
         pdf : '/assets/MuySeca.pdf',
         description: 'tu piel es muy propensa al enrojecimiento, tirantez y picor. Además, puede llegar a agrietarse produciendo descamación. Como su barrera cutánea no funciona bien, es más fácil la pérdida de agua. Debes hidratar tu piel día y noche para calmar la sensación de tirantez.' ,
         clean: [
@@ -123,10 +157,27 @@ export const result = [
         
     },
     {
-        configStyle: ['#D7CDC4' ,'#8F8070'],
+        configStyle: ['#D5D9DD' ,'#62788D'],
         skinIcon: 'PielSeca.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Seca',
+        color: [
+            {//clean
+                colorFondo:"#DADEE2",
+                colorLetra:"#62788D",
+                colorDesc:"#C4CDD5"
+            },
+            {//hydration
+                colorFondo:"#DBE0DE",
+                colorLetra:"#7D8280",
+                colorDesc:"#CED6D5"
+            },
+            {//solarprotc
+                colorFondo:"#EBE2D9",
+                colorLetra:"#8F8070",
+                colorDesc:"#DCD2C9"
+            }
+        ],
         pdf : '/assets/Seca.pdf',
         description: 'tu piel no produce los niveles de grasa normales y por eso la puedes sentir áspera y con tirantez. Si está excesivamente deshidratada puede volverse frágil. Necesitas una rutina de cuidado que se fundamente en una buena hidratación.' ,
         clean: [
@@ -179,10 +230,27 @@ export const result = [
         ]
     },
     {
-        configStyle: ['#D7CDC4' ,'#8F8070'],
+        configStyle: ['#D8D5D9' ,'#887D7F'],
         skinIcon: 'PielGrasa.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Grasa',
+        color: [
+            {//clean
+                colorFondo:"#DADEE2",
+                colorLetra:"#62788D",
+                colorDesc:"#C4CDD5"
+            },
+            {//hydration
+                colorFondo:"#DBE0DE",
+                colorLetra:"#7D8280",
+                colorDesc:"#CED6D5"
+            },
+            {//solarprotc
+                colorFondo:"#EBE2D9",
+                colorLetra:"#8F8070",
+                colorDesc:"#DCD2C9"
+            }
+        ],
         pdf : '/assets/Grasa.pdf',
         description: 'tu piel es un poco más gruesa y presenta brillo tanto en tu zona T como en las mejillas. Hay factores como la edad, la genética, las hormonas, la alimentación, el estrés o incluso algunas sustancias que se aplican en la piel, y pueden ocasionar piel grasa y con barros o espinillas. La limpieza y exfoliación en tu rutina de cuidado es fundamental.' ,
         clean: [
@@ -230,10 +298,27 @@ export const result = [
         ]
     },
     {
-        configStyle: ['#D7CDC4' ,'#8F8070'],
+        configStyle: ['#D5D9DD' ,'#627889'],
         skinIcon: 'PielMixta.png',  
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Mixta',
+        color: [
+            {//clean
+                colorFondo:"#DADEE2",
+                colorLetra:"#62788D",
+                colorDesc:"#C4CDD5"
+            },
+            {//hydration
+                colorFondo:"#DBE0DE",
+                colorLetra:"#7D8280",
+                colorDesc:"#CED6D5"
+            },
+            {//solarprotc
+                colorFondo:"#EBE2D9",
+                colorLetra:"#8F8070",
+                colorDesc:"#DCD2C9"
+            }
+        ],
         pdf : '/assets/Mixta.pdf',
         description: ' como su nombre lo indica, tu piel presenta 2 patologías. En tu zona T (frente, nariz, mentón) produce más grasa. Sin embargo, en la parte de las mejillas puedes tener la piel normal o incluso seca y presentar irritación.' ,
         clean: [
@@ -286,11 +371,28 @@ export const result = [
         ]
     },
     {
-        configStyle: ['#D7CDC4' ,'#8F8070'],
+        configStyle: ['#E6DDD4' ,'#8F8070'],
         skinIcon: 'PielNormal.png', 
         pdf : '/assets/Normal.pdf', 
         inicio:'Después de tus respuestas, podemos decir que tu piel es: ',
         skinResult: 'Normal',
+        color: [
+            {//clean
+                colorFondo:"#DADEE2",
+                colorLetra:"#62788D",
+                colorDesc:"#C4CDD5"
+            },
+            {//hydration
+                colorFondo:"#DBE0DE",
+                colorLetra:"#7D8280",
+                colorDesc:"#CED6D5"
+            },
+            {//solarprotc
+                colorFondo:"#EBE2D9",
+                colorLetra:"#8F8070",
+                colorDesc:"#DCD2C9"
+            }
+        ],
         description: ' tu piel es suave, no se irrita con facilidad ni produce sebo en exceso. Tiene buena circulación sanguínea, no presenta aspereza sino por el contrario se siente suave y lisa.' ,
         clean: [
             {
