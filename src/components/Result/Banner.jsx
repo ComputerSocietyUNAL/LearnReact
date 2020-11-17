@@ -18,7 +18,13 @@ export default class Banner extends Component {
                         :
                         <div className="col-4 Banner-text">
                             <p>Conoce tu tipo de piel y su cuidado especializado</p>
-                            <Link className="btn btn-light" to="/test" style={{margin:'auto', width:'50%'}}>Rehacer Test</Link>
+                            <Link 
+                            className="btn btn-light" to="/test" 
+                            style={{
+                                margin:'auto', 
+                                width:'50%', 
+                                backgroundColor:"#62788D",
+                                color:"white"}}>Rehacer Test</Link>
                         </div>
                     }
                     <div className="col-4">
