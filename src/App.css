@@ -252,7 +252,6 @@ footer span {
   font-size: 18px;
 }
 .Banner-img {
-  width: 100%;
   height: 100%;
 }
 
@@ -260,4 +259,13 @@ footer span {
   background-color: #62788D;
   color: "#FFFFFF";
 }
-
+.box{
+  padding:"0px";
+  display:none;
+  overflow: hidden;
+}
+@media only screen and (min-width:600px) {
+  .lg {
+    display: block;
+  }
+}
