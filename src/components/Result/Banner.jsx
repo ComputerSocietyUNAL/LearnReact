@@ -8,7 +8,7 @@ export default class Banner extends Component {
             <div className="Banner" >
                 <div className="row" style={{margin:"0px"}}>
                     <div className="col-4" style={{padding:"0px"}}>
-                        <img src="/assets/BannerIZQ.png" className="Banner-img" alt=""/>
+                        <img src="/assets/BannerIZQ.webp" className="Banner-img" alt=""/>
                     </div>
                     {   this.props.sensibleSkinScore > 1 ?
                         <div className="col-4 Banner-text">
@@ -28,7 +28,7 @@ export default class Banner extends Component {
                         </div>
                     }
                     <div className="col-4" style={{padding:"0px"}}>
-                        <img src="/assets/BannerDER.png" className="Banner-img" alt=""/>
+                        <img src="/assets/BannerDER.webp" className="Banner-img" alt=""/>
                     </div>
                 </div>
             </div>

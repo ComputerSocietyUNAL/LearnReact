@@ -7,7 +7,7 @@ export default class Footer extends Component{
         return (
             <div className="footeranswer">
                 <div className="row justify-content-around" style={{margin:"0px"}}>
-                    <div className="col-3">
+                    <div className="col-md-4">
                         <footeranswer>
                             <Link 
                                 className="btn btn-light" 
@@ -19,7 +19,7 @@ export default class Footer extends Component{
                             <p> Para agendar tu cita, nuestro equipo de dermoconsejeros te compartirá los mejores consejos y te guiará para encontrar los productos diseñados para tu tipo de piel. </p>
                         </footeranswer>
                     </div>
-                    <div className="col-3" >
+                    <div className="col-md-4" >
                         <img  src={DermoConsejos} alt="Imagen" height={200}></img>
                     </div>
                 </div>
