@@ -212,6 +212,9 @@ footer span {
   .contenido2 {
     height: 35vh;
   }
+  .pregunta {
+    margin-top: 10%;
+  }
 }
 @media (max-width: 480px) {
   footer {
