@@ -85,7 +85,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Gel Ligero 100 mL',
-                image: '/assets/products/Producto9.png',
+                image: '/assets/products/Producto18.png',
                 type: 'Rostro-Cuerpo'
             }
             
@@ -149,7 +149,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Gel Ligero 100 mL',
-                image: '/assets/products/Producto9.png',
+                image: '/assets/products/Producto18.png',
                 type: 'Cuerpo'
             }
             
@@ -223,7 +223,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Gel Ligero 100 mL',
-                image: '/assets/products/Producto9.png',
+                image: '/assets/products/Producto18.png',
                 type: 'Rostro-Cuerpo'
             }
             
@@ -320,7 +320,7 @@ export const result = [
             }
         ],
         pdf : '/assets/Mixta.pdf',
-        description: ' como su nombre lo indica, tu piel presenta 2 patologías. En tu zona T (frente, nariz, mentón) produce más grasa. Sin embargo, en la parte de las mejillas puedes tener la piel normal o incluso seca y presentar irritación.' ,
+        description: 'como su nombre lo indica, tu piel presenta 2 patologías. En tu zona T (frente, nariz, mentón) produce más grasa. Sin embargo, en la parte de las mejillas puedes tener la piel normal o incluso seca y presentar irritación.' ,
         clean: [
             {
                 description: 'Cetaphil® Toallitas de Limpieza Facial',
