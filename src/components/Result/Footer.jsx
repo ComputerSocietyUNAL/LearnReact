@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import DermoConsejos from '../../img/DermoConsejos.webp';
+import DermoConsejos from '../../img/DermoConsejos.png';
 
 export default class Footer extends Component{
     render() {

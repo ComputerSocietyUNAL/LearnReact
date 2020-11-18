@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from "./Footer";
-import img from '../img/Recurso1.webp';
-import img2 from '../img/Recurso2.webp';
+import img from '../img/Recurso1.png';
+import img2 from '../img/Recurso2.png';
 
 export default class Main extends Component {
 

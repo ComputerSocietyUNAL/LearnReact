@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import header from '../img/header.webp';
+import header from '../img/header.png';
 
 export default class Header extends Component{
     render() {
