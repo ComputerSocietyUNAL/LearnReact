@@ -5,10 +5,38 @@ export default class Footer extends Component{
     render() {
         return (
             <footer>
-                <a className="btn btn-social-icon btn-facebook" href="https://www.facebook.com/cetaphilcolombia"><i className="fa fa-facebook"></i></a>
-                <a className="btn btn-social-icon btn-twitter" href="https://twitter.com/CetaphilCol"><i className="fa fa-twitter"></i></a>
-                <a className="btn btn-social-icon btn-google" href="https://www.youtube.com/user/GaldermaColombia"><i className="fa fa-youtube"></i></a>
-                <a className="btn btn-social-icon btn-instagram" href="https://www.instagram.com/cetaphilcol/"><i className="fa fa-instagram"></i></a>
+                <a 
+                    className="btn btn-default" 
+                    type="button" 
+                    href="https://www.facebook.com/cetaphilcolombia"
+                    style={{width:"32px",height:"32px",padding:"0px",borderWidth:"0px"}}
+                >
+                    <img src="/assets/redes/Facebook-Azul.png" style={{width:"32px"}}/>
+                </a>
+                <a 
+                    className="btn btn-default" 
+                    type="button" 
+                    href="https://twitter.com/CetaphilCol"
+                    style={{width:"32px",height:"32px",padding:"0px",borderWidth:"0px"}}
+                >
+                    <img src="/assets/redes/Twitter-Azul.png" style={{width:"32px"}}/>
+                </a>
+                <a 
+                    className="btn btn-default" 
+                    type="button"
+                    href="https://www.youtube.com/user/GaldermaColombia" 
+                    style={{width:"32px",height:"32px",padding:"0px",borderWidth:"0px"}}
+                >
+                    <img src="/assets/redes/Youtube-Azul.png" style={{width:"32px"}}/>
+                </a>
+                <a 
+                    className="btn btn-default" 
+                    type="button"
+                    href="https://www.instagram.com/cetaphilcol/" 
+                    style={{width:"32px",height:"32px",padding:"0px",borderWidth:"0px"}}
+                >
+                    <img src="/assets/redes/Instagram-Azul.png" style={{width:"32px"}}/>
+                </a>
                 <img className="footer" src={footer} alt="Imagen" height={80}></img>
             </footer>
         )

@@ -41,25 +41,25 @@ export default class Main extends Component {
                         </h3> 
                     </div>
                 </div>
-                <div className="row col-md-8 justify-content-center" style={{width:"100vw",margin:"auto"}}>
+                <div className="row col-md-8 col-7 justify-content-center" style={{width:"100vw",margin:"auto", marginBottom:"5vh"}}>
                     <Button outline
                         aria-pressed="true"
                         active={this.state.stage === 'clean'}
-                        style={{margin:"auto",marginBottom:"5vh"}}
+                        style={{margin:"auto",marginBottom:"10px"}}
                         onClick={ e => {
                             this.setState({ stage: "clean"})}}> 
                         Limpieza 
                     </Button>
                     <Button outline
                         active={this.state.stage === 'hydration'}
-                        style={{margin:"auto",marginBottom:"5vh"}}
+                        style={{margin:"auto",marginBottom:"10px"}}
                         onClick={ e => {
                             this.setState({ stage: "hydration"})}}> 
                         Hidratacion 
                     </Button>
                     <Button outline
                         active={this.state.stage === 'solarProtection'}
-                        style={{margin:"auto",marginBottom:"5vh"}}
+                        style={{margin:"auto",marginBottom:"10px"}}
                         onClick={ e => {
                             this.setState({ stage: "solarProtection"})}}> 
                         Proteccion Solar 

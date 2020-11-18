@@ -47,7 +47,7 @@ export default class Header extends Component{
                     <div className="col-md-6 headerContenido text-center" style={{padding:'30px'}}>
                         <img className="Image contenido" src={this.ImageArray[idx]} alt="Imagen" style={{width:"75%"}}></img>
                     </div>
-                    <div className="col-md-6" style={{paddingRight:"20vw", paddingTop:"5vw", paddingLeft:"5vw"}}>
+                    <div className="col-md-6 text-center" style={{paddingRight:"5vw", paddingTop:"5vw", paddingLeft:"5vw"}}>
                         <p style={{fontFamily:"Poppins-Medium",color:data[idx].configStyle[1]}}>
                             {data[idx].inicio}
                         </p>

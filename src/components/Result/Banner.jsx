@@ -16,7 +16,7 @@ export default class Banner extends Component {
                             <Button color="secondary" onClick={e => this.props.changeSensibleScore(e)}>Ver más</Button>
                         </div>
                         :
-                        <div className="col-4 col-sm Banner-text">
+                        <div className="col-5 col-sm Banner-text">
                             <p>Conoce tu tipo de piel y su cuidado especializado</p>
                             <Link 
                             className="btn btn-light" to="/test" 

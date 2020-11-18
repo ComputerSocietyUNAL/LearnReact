@@ -109,7 +109,7 @@ class Questionary extends Component {
 
         return (
             <TransitionGroup>
-                <div className="container">
+                <div className="container" style={{backgroundColor:"#E6DDD4"}}>
                     <Header/>
                     <Stagger in>
                         <Fade in>
@@ -119,22 +119,10 @@ class Questionary extends Component {
                                         <p className="pregunta" >{question}</p>
                                     </AnimateOnChange>
                                     <div className="progressbar">
-                                        <span className="dot" style={current > 0 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 1 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 2 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 3 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 4 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 5 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 6 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 7 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 8 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 9 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 10 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 11 ? this.style(configStyle) : {}} />
-                                        <span className="dot" style={current > 12 ? this.style(configStyle) : {}} />
+                                        
                                     </div>
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-md-6" style={{padding:"0px"}}>
                                     <AnimateOnChange durationOut="500">
                                         <Answers 
                                             answers={answers}

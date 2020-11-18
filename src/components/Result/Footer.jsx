@@ -6,8 +6,8 @@ export default class Footer extends Component{
     render() {
         return (
             <div className="footeranswer">
-                <div className="row justify-content-around" style={{margin:"0px"}}>
-                    <div className="col-md-4">
+                <div className="row justify-content-center" style={{margin:"0px"}}>
+                    <div className="col-md-5">
                         <footeranswer>
                             <Link 
                                 className="btn btn-light" 
