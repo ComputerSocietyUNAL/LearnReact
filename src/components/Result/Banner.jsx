@@ -9,7 +9,7 @@ export default class Banner extends Component {
                 <div className="container text-center">
                     <div className="row">
                         <div className="col-md-4 box lg" >
-                            <img src="/assets/BannerIZQ.png" className="Banner-img" alt=""/>
+                            <img src="/assets/BannerIZQ.png" className="Banner-img " alt=""/>
                         </div>
                         <div className="col-md-4">
                         {   this.props.sensibleSkinScore > 1 ?
@@ -30,8 +30,8 @@ export default class Banner extends Component {
                             </div>
                         }
                         </div>
-                        <div className="col-md-4 box lg" >
-                            <img src="/assets/BannerDER.png" className="Banner-img" alt=""/>
+                        <div className="col-md-4 box lg">
+                                <img src="/assets/BannerDER.png" className="Banner-img" alt=""/>
                         </div>
                     </div>
                 </div>

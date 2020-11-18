@@ -10,11 +10,11 @@ export default class Footer extends Component{
                     <div className="col-md-5">
                         <footeranswer>
                             <Link 
-                                className="btn btn-light" 
+                                className="btn btn-light animate__animated animate__pulse animate__infinite" 
                                 target="_blank" 
                                 to={{pathname: "https://www.facebook.com/cetaphilcolombia/posts/3938296362865534"}} 
                                 style={{margin:'20px', width:'auto', backgroundColor:'#13AAB2', color:'#FFFFFF'}}>
-                                Ingresa aqui
+                                Ingresa aquí
                             </Link>
                             <p> Para agendar tu cita, nuestro equipo de dermoconsejeros te compartirá los mejores consejos y te guiará para encontrar los productos diseñados para tu tipo de piel. </p>
                         </footeranswer>

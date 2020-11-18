@@ -45,21 +45,21 @@ export default class Main extends Component {
                     <Button outline
                         aria-pressed="true"
                         active={this.state.stage === 'clean'}
-                        style={{margin:"auto",marginBottom:"10px",width:"150px"}}
+                        style={{margin:"auto",marginBottom:"10px", width:"150px"}}
                         onClick={ e => {
                             this.setState({ stage: "clean"})}}> 
                         Limpieza 
                     </Button>
                     <Button outline
                         active={this.state.stage === 'hydration'}
-                        style={{margin:"auto",marginBottom:"10px",width:"150px"}}
+                        style={{margin:"auto",marginBottom:"10px", width:"150px"}}
                         onClick={ e => {
                             this.setState({ stage: "hydration"})}}> 
                         Hidratacion 
                     </Button>
                     <Button outline
                         active={this.state.stage === 'solarProtection'}
-                        style={{margin:"auto",marginBottom:"10px", width:"150px"}}
+                        style={{margin:"auto",marginBottom:"10px" , width:"150px"}}
                         onClick={ e => {
                             this.setState({ stage: "solarProtection"})}}> 
                         Proteccion Solar 
@@ -75,7 +75,7 @@ export default class Main extends Component {
                         to={{pathname: this.props.data[idx].pdf}} 
                         style={{margin:'20px', width:'250px', height:'73px', lineHeight:3.5, backgroundColor:'#62788D', color:'#FFFFFF',fontFamily:"Poppins-SemiBold"}}>
                         Descarga aquí tu resultado
-                    </Link>                   
+                    </Link>                    
                 </div>
             </div>
         </React.Fragment>

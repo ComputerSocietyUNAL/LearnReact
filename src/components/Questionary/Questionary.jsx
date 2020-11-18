@@ -96,8 +96,7 @@ class Questionary extends Component {
     }
 
     render() {
-        let { 
-            current, 
+        let {  
             question, 
             answers, 
             questionAnswered, 
@@ -119,7 +118,7 @@ class Questionary extends Component {
                                         <p className="pregunta" >{question}</p>
                                     </AnimateOnChange>
                                     <div className="progressbar">
-                                        <img src="/assets/puntospregunta.png" alt="progressbar" style={{width:"80vw",maxWidth:"500px"}} />                            
+                                        <img src="/assets/puntospregunta.png" alt="progressbar" style={{width:"80vw",maxWidth:"500px"}} /> 
                                     </div>
                                 </div>
                                 <div className="col-md-6" style={{padding:"0px"}}>

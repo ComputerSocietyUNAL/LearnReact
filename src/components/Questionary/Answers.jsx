@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 export default class Answers extends Component {
     constructor(props) {
         super(props);
@@ -34,7 +35,6 @@ export default class Answers extends Component {
         
     render() {
         let { answers, configIcon, configStyle} = this.props;
-        let idx=0;
         return (
             <div id="answers">
                 <ul>

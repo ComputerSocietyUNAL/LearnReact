@@ -208,14 +208,7 @@ footer span {
       width: 100%;
   }
 }
-@media only screen and (max-width:700px) {
-  .contenido2 {
-    height: 35vh;
-  }
-  .pregunta {
-    margin-top: 10%;
-  }
-}
+
 @media (max-width: 480px) {
   footer {
       padding: 5px;
@@ -240,7 +233,7 @@ footer span {
 	align-items: flex-end;
   text-align: center;
   margin:0px ;
-  padding:0px; /*no mover de 0px se DAÑA :v*/
+  padding:0px; /*no mover de 0px se DAÑA :v */
 }
 .CardStyle {
   width: 90%;
@@ -258,8 +251,10 @@ footer span {
   font-family: Poppins-Medium, Sans;
   font-size: 18px;
 }
+
 .Banner-img {
   height: 100%;
+  
 }
 
 .Banner-btn {
@@ -267,7 +262,7 @@ footer span {
   color: "#FFFFFF";
 }
 .box{
-  padding:"0px";
+  
   display:none;
   overflow: hidden;
 }
@@ -276,4 +271,11 @@ footer span {
     display: block;
   }
 }
-
+@media only screen and (max-width:700px) {
+  .contenido2 {
+    height: 35vh;
+  }
+  .pregunta {
+    margin-top: 10%;
+  }
+}

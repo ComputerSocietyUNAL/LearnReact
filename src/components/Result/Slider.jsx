@@ -22,7 +22,7 @@ export default class SimpleSlider extends Component {
                 slidesToSlide: 1, // optional, default to 1.
               }
         };
-        console.log(this.props)
+        /* console.log(this.props) */
         /* var id = this.props.id; //toca mirar segun logica si es igual a idx */
         const { stage, id } = this.props;
         const data = this.props.data;
