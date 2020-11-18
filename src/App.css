@@ -54,7 +54,7 @@ body {
 
 #question p{
   font-family: Poppins-Medium, Sans;
-  font-size: 40px;
+  font-size: 1.3rem;/*40px*/
   font-weight: 700;
   text-align: center;
   letter-spacing: 2px;
@@ -208,7 +208,11 @@ footer span {
       width: 100%;
   }
 }
-
+@media only screen and (max-width:700px) {
+  .contenido2 {
+    height: 35vh;
+  }
+}
 @media (max-width: 480px) {
   footer {
       padding: 5px;
