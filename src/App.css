@@ -272,3 +272,38 @@ footer span {
     font-weight: 700;
   }
 }
+.frame-text {
+  color:white;
+  font-family:Poppins-Regular;
+  font-size: 14px;
+  margin:6%;
+  /* margin-top: 0px; */
+  /* margin-bottom: 0px; */
+  margin-left: -20%;/*-20%*//*-71.9%*/
+  /* margin-right: 0px; */
+}
+@media only screen and (max-width:640px) {
+  .frame-text {
+    font-size: 13px;
+    margin-left: -20%;
+    margin-right: -5px;
+    width: 150px;
+    
+  }
+  .trapezoid {
+    width: 95%;
+    height: 0px;
+    border-right: 28px solid transparent;
+    border-left-width: 28px;
+    border-left-style: solid;
+    border-top-width: 35px;
+    border-top-style: solid;
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin:0px ;
+    padding:0px; /*no mover de 0px se DAÑA :v */
+  }
+}

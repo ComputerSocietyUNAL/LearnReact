@@ -23,7 +23,7 @@ export default class Product extends Component {
                     borderTopColor:data[id].color[indice].colorLetra,
                     borderLeftColor:data[id].color[indice].colorLetra
                     }}>
-                    <p style={{margin:"6%",marginLeft:"-20%",fontSize:"14px",color:"white",fontFamily:"Poppins-Regular"}}>
+                    <p className="frame-text" >
                     {data[id][stage][idx].type}
                     </p>
                 </div>

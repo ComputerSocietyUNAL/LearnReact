@@ -86,11 +86,9 @@ export const result = [
             {
                 description: 'Cetaphil® Gel Ligero 100 mL',
                 image: '/assets/products/Producto18.png',
-                type: 'Rostro-Cuerpo'
-            }
-            
+                type: 'Rostro - Cuerpo'
+            }        
         ]
-        
     },
     {
         configStyle: ['#D6DBD9' ,'#7D8280'],
