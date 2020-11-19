@@ -99,7 +99,8 @@ class Questionary extends Component {
     }
 
     render() {
-        let {  
+        let {
+            current,  
             question, 
             answers, 
             questionAnswered, 
@@ -109,7 +110,50 @@ class Questionary extends Component {
             configIcon,
             back
         } = this.state;
-
+        let btndots=0;
+    switch(current){
+        case 1:
+            btndots="/assets/dots/Pregunta.svg";
+            break;
+        case 2:
+            btndots="/assets/dots/Pregunta2.svg";
+            break;
+        case 3:
+            btndots="/assets/dots/Pregunta3.svg";
+            break;
+        case 4:
+            btndots="/assets/dots/Pregunta4.svg";
+            break;
+        case 5:
+            btndots="/assets/dots/Pregunta5.svg";
+            break;
+        case 6:
+            btndots="/assets/dots/Pregunta6.svg";
+            break;
+        case 7:
+            btndots="/assets/dots/Pregunta7.svg";
+            break;
+        case 8:
+            btndots="/assets/dots/Pregunta8.svg";
+            break;
+        case 9:
+            btndots="/assets/dots/Pregunta9.svg";
+            break;
+        case 10:
+            btndots="/assets/dots/Pregunta10.svg";
+            break;
+        case 11:
+            btndots="/assets/dots/Pregunta11.svg";
+            break;
+        case 12:
+            btndots="/assets/dots/Pregunta12.svg";
+            break;
+        case 13:
+            btndots="/assets/dots/Pregunta13.svg";
+            break;
+        default:
+            break;
+    }
         return (
             <TransitionGroup>
                 <div className="container" style={{backgroundColor: back}}>
@@ -121,8 +165,8 @@ class Questionary extends Component {
                                     <AnimateOnChange durationOut="500" style={{width:"100%"}}>
                                         <p className="pregunta" >{question}</p>
                                     </AnimateOnChange>
-                                    <div className="progressbar">
-                                        <img src="/assets/puntospregunta.png" alt="progressbar" style={{width:"80vw",maxWidth:"500px"}} /> 
+                                    <div className="dots">
+                                        <img  src={btndots} alt="dots" />
                                     </div>
                                 </div>
                                 <div className="col-md-6" style={{padding:"0px"}}>
