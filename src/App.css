@@ -54,7 +54,7 @@ body {
 
 #question p{
   font-family: Poppins-Medium, Sans;
-  font-size: 1.3rem;/*40px*/
+  font-size: 4rem;/*40px*/
   font-weight: 700;
   text-align: center;
   letter-spacing: 2px;
@@ -166,12 +166,13 @@ footer span {
 
 .contenido p {  
   /* font-family: Poppins-Regular, Sans; */
-  font-size: calc(1rem + 2vw);/*2.3rem*/
+  font-size: 5rem;/*2.3rem*/
 }
 
 .pregunta {
   margin-top: 25%;
   font-family: "Poppins-Regular";
+  font-size: 5rem;
 }
 
 .progressbar {
@@ -251,18 +252,14 @@ footer span {
   font-family: Poppins-Medium, Sans;
   font-size: 18px;
 }
-
 .Banner-img {
-  height: 100%;
-  
+  height: 100%; 
 }
-
 .Banner-btn {
   background-color: #62788D;
   color: "#FFFFFF";
 }
-.box{
-  
+.box{ 
   display:none;
   overflow: hidden;
 }
@@ -273,9 +270,21 @@ footer span {
 }
 @media only screen and (max-width:700px) {
   .contenido2 {
-    height: 35vh;
+    height: 28vh;
+    display: flex;
+    align-items: center;;
   }
   .pregunta {
-    margin-top: 10%;
+    margin-top: 0%;
+    text-align: center;
+  }
+  .contenido p {  
+    /* font-family: Poppins-Regular, Sans; */
+    font-size: calc(1rem + 1.5vw);/*2.3rem*/
+  }
+  #question p{
+    font-family: Poppins-Medium, Sans;
+    font-size: 1.2rem;/*40px*/
+    font-weight: 700;
   }
 }
