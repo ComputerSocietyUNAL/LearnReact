@@ -118,7 +118,7 @@ class Questionary extends Component {
                         <Fade in>
                             <div id="question" className="row" >
                                 <div  className="col-md-6  contenido2" style={this.style(configStyle)}>
-                                    <AnimateOnChange durationOut="500">
+                                    <AnimateOnChange durationOut="500" style={{width:"100%"}}>
                                         <p className="pregunta" >{question}</p>
                                     </AnimateOnChange>
                                     <div className="progressbar">
