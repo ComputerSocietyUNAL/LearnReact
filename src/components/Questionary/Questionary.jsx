@@ -20,7 +20,8 @@ class Questionary extends Component {
             sensibleSkin:[0,0,0,0],
             skinScore: 0,
             sensibleSkinScore: 0,
-            configStyle: ['#D7CDC4' ,'#8F8070']
+            configStyle: ['#D7CDC4' ,'#8F8070'],
+            back:'#FFF3F1'
         }
         this.nextQuestion = this.nextQuestion.bind(this);
         this.handleShowButton = this.handleShowButton.bind(this);
@@ -31,12 +32,14 @@ class Questionary extends Component {
     pushData(current) {
         this.setState({
             question: data[current].question,
+            back: data[current].back,
             answers: [data[current].answers[0], data[current].answers[1], data[current].answers[2], data[current].answers[3] ],
             skinType: data[current].skinType,
             sensibleSkin: data[current].sensibleSkin,
             configStyle: data[current].configStyle,
             configIcon: data[current].configIcon,
             current: this.state.current + 1
+            
         });
     }
 
@@ -103,12 +106,13 @@ class Questionary extends Component {
             skinType, 
             sensibleSkin,
             configStyle,
-            configIcon
+            configIcon,
+            back
         } = this.state;
 
         return (
             <TransitionGroup>
-                <div className="container" style={{backgroundColor:"#E6DDD4"}}>
+                <div className="container" style={{backgroundColor: back}}>
                     <Header/>
                     <Stagger in>
                         <Fade in>
