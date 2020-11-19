@@ -8,6 +8,7 @@ import {
 import Main from './components/Main';
 import Questionary from './components/Questionary/Questionary';
 import Result from "./components/Result";
+import data from "./data/data";
 
 function App() {
   return (

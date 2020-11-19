@@ -152,6 +152,12 @@ footer span {
   height:510px;/*510px*/
   margin: auto ;
 }
+.dots {
+  position: absolute;
+  bottom: 15px;
+  left: 12px;
+  right: 12px;
+}
 .pregunta {
   width: 100%;
   margin-top: 25%;
@@ -237,16 +243,20 @@ footer span {
     display: inline;
   }
   .pregunta {
-    margin-top: 10vh;
+    margin-top: 8vh;
   }
   .contenido p {  
     /* font-family: Poppins-Regular, Sans; */
     font-size: calc(1rem + 1.5vw);/*2.3rem*/
   }
   .dots {
-    width: 100%;
+    width: 95%;
     margin: 0px;
     margin-top: 0px;
+    position: absolute;
+    bottom: 5px;
+    left: 7px;
+    right: 12px;
   }
   #question p{
     font-family: Poppins-Medium, Sans;

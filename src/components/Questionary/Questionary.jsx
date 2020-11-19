@@ -156,7 +156,7 @@ class Questionary extends Component {
     }
         return (
             <TransitionGroup>
-                <div className="container" style={{backgroundColor: back}}>
+                <div  style={{backgroundColor: back,padding:"0px 35px",height:"auto"}}>
                     <Header/>
                     <Stagger in>
                         <Fade in>
@@ -165,8 +165,8 @@ class Questionary extends Component {
                                     <AnimateOnChange durationOut="500" style={{width:"100%"}}>
                                         <p className="pregunta" >{question}</p>
                                     </AnimateOnChange>
-                                    <div className="dots">
-                                        <img  src={btndots} alt="dots" />
+                                    <div>
+                                        <img className="dots" src={btndots} alt="dots" />
                                     </div>
                                 </div>
                                 <div className="col-md-6" style={{padding:"0px"}}>
