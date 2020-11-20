@@ -44,10 +44,10 @@ export default class Header extends Component{
         return (
             <div >
                 <div className="row fondo justify-content-center " style={{backgroundColor:data[idx].configStyle[0],margin:"0px"}}>
-                    <div className="col-md-6 headerContenido text-center" style={{padding:'30px'}}>
+                    <div className="col-md-6 headerContenido text-center" style={{padding:'30px',paddingRight:"0px"}}>
                         <img className="Image contenido" src={this.ImageArray[idx]} alt="Imagen" style={{width:"75%" , marginTop:"-45px"}}></img>
                     </div>
-                    <div className="col-md-6 text-center" style={{paddingRight:"5vw", paddingTop:"5vw", paddingLeft:"5vw"}}>
+                    <div className="col-md-6 text-center" style={{paddingRight:"5vw", paddingTop:"5vw", paddingLeft:"0vw"}}>
                         <p style={{fontFamily:"Poppins-Medium",color:data[idx].configStyle[1]}}>
                             {data[idx].inicio}
                         </p>
