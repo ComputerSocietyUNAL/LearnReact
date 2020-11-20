@@ -1,7 +1,8 @@
 body {
   background-color: #e4e4e4;
   font-family: Apis-Medium, Sans;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -153,10 +154,13 @@ footer span {
   margin: auto ;
 }
 .dots {
+  width: 90%;
+  margin: 0px;
+  margin-top: 0px;
   position: absolute;
-  bottom: 15px;
-  left: 12px;
-  right: 12px;
+  bottom: 12px;
+  left: 14px;
+  right: 10px;
 }
 .pregunta {
   width: 100%;
@@ -243,20 +247,20 @@ footer span {
     display: inline;
   }
   .pregunta {
-    margin-top: 8vh;
+    margin-top: 10vh;
   }
   .contenido p {  
     /* font-family: Poppins-Regular, Sans; */
     font-size: calc(1rem + 1.5vw);/*2.3rem*/
   }
   .dots {
-    width: 95%;
+    width: 90%;
     margin: 0px;
     margin-top: 0px;
     position: absolute;
-    bottom: 5px;
-    left: 7px;
-    right: 12px;
+    bottom: 12px;
+    left: 13px;
+    right: 10px;
   }
   #question p{
     font-family: Poppins-Medium, Sans;

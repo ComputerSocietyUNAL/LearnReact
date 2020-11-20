@@ -55,14 +55,14 @@ export default class Main extends Component {
                         style={{margin:"auto",marginBottom:"10px", width:"150px"}}
                         onClick={ e => {
                             this.setState({ stage: "hydration"})}}> 
-                        Hidratacion 
+                        Hidratación 
                     </Button>
                     <Button outline
                         active={this.state.stage === 'solarProtection'}
                         style={{margin:"auto",marginBottom:"10px" , width:"150px"}}
                         onClick={ e => {
                             this.setState({ stage: "solarProtection"})}}> 
-                        Proteccion Solar 
+                        Protección Solar 
                     </Button>
                 </div>
                 <div className="justify-content-center">

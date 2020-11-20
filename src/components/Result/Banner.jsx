@@ -6,8 +6,8 @@ export default class Banner extends Component {
     render(){
         return(
             <div className="Banner" >
-                <div className="container text-center">
-                    <div className="row">
+                <div className="text-center">
+                    <div className="row" >
                         <div className="col-md-4 box lg" >
                             <img src="/assets/BannerIZQ.png" className="Banner-img " alt=""/>
                         </div>
