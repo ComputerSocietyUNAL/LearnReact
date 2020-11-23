@@ -22,11 +22,9 @@ export default class SimpleSlider extends Component {
                 slidesToSlide: 1, // optional, default to 1.
               }
         };
-        /* console.log(this.props) */
-        /* var id = this.props.id; //toca mirar segun logica si es igual a idx */
         const { stage, id } = this.props;
         const data = this.props.data;
-        let idx = -1/* (this.props.idx -1) */; // falta definir como pasar este valor :v
+        let idx = -1;
 
         return(
             <div className="container" style={{width:"56vw",height:"55vh"}}>
@@ -43,7 +41,7 @@ export default class SimpleSlider extends Component {
                     /* removeArrowOnDeviceType={[ "mobile"]} */
                     deviceType={this.props.deviceType}
                     dotListClass="custom-dot-list-style"
-                    itemClass="carousel-item-padding-40-px"
+                    itemClass="carousel-item-padding"
                     centerMode={false}
                     renderDotsOutside={true}
                 >

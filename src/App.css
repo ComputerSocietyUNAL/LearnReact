@@ -3,11 +3,15 @@ body {
   font-family: Apis-Medium, Sans;
   margin-bottom: 0px;
   overflow-x: hidden;
+  height: 100%;
   
 }
-html {
+/*html {
   height: 100%;
 }
+#root{
+  height: 100%;
+}*/
 
 @font-face {
   font-family: Apis-Medium;
@@ -304,5 +308,23 @@ footer span {
     text-align: center;
     margin:0px ;
     padding:0px; /*no mover de 0px se DAÑA :v */
+  }
+}
+
+@media only screen and (max-width:360px) {
+  .mobileSlider {
+    display: show;
+  }
+  .desktopSlider {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:361px) {
+  .desktopSlider {
+    display: show;
+  }
+  .mobileSlider {
+    display: none;
   }
 }

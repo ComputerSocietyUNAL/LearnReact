@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import SimpleSlider from './Slider';
+import NoSlider from './noSlider';
 
 export default class Main extends Component {
 
@@ -65,8 +66,11 @@ export default class Main extends Component {
                         Protección Solar 
                     </Button>
                 </div>
-                <div className="justify-content-center">
+                <div className="justify-content-center desktopSlider">
                     <SimpleSlider data={this.props.data} stage={this.state.stage} id={idx}/>
+                </div>
+                <div className="justify-content-center mobileSlider">
+                    <NoSlider data={this.props.data} stage={this.state.stage} id={idx}/>
                 </div>
                 <div className="row justify-content-center">
                     <Link 
