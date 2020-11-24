@@ -219,7 +219,7 @@ footer span {
 }
 .CardStyle {
   width: 95%;
-  height: 460px;/*65vh*/
+  height: auto/*460px;/*65vh*/
 }
 .Banner {
   background-color: #D7DBDF;

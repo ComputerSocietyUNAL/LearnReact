@@ -30,7 +30,7 @@ export default class Product extends Component {
                 <CardImg src={data[id][stage][idx].image} alt=""  />
                 <CardBody style={{backgroundColor:data[id].color[indice].colorDesc}}>
                     <CardText style={{fontFamily:"Poppins-ExtraLight",color:data[id].color[indice].colorLetra}}>
-                        <p style={{fontSize:"14px"}}>{data[id][stage][idx].description} </p>
+                        <p style={{fontSize:"14px",marginBottom:"1px"}}>{data[id][stage][idx].description} </p>
                         <p style={{fontSize:"13px"}}>{data[id][stage][idx].advice}</p>
                     </CardText>
                 </CardBody>
