@@ -218,8 +218,8 @@ footer span {
   padding:0px; /*no mover de 0px se DAÑA :v */
 }
 .CardStyle {
-  width: 90%;
-  height: 35%;
+  width: 95%;
+  height: 460px;/*65vh*/
 }
 .Banner {
   background-color: #D7DBDF;
@@ -311,7 +311,7 @@ footer span {
   }
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:414px) {
   .mobileSlider {
     display: show;
   }
@@ -320,7 +320,7 @@ footer span {
   }
 }
 
-@media only screen and (min-width:361px) {
+@media only screen and (min-width:415px) {
   .desktopSlider {
     display: show;
   }

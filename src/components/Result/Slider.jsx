@@ -27,7 +27,7 @@ export default class SimpleSlider extends Component {
         let idx = -1;
 
         return(
-            <div className="container" style={{width:"56vw",height:"55vh"}}>
+            <div className="container" style={{width:"56vw",height:"100%"}}>
                 <Carousel
                     arrows={true}
                     showDots={false}
