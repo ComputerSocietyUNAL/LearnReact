@@ -41,7 +41,7 @@ class Result extends Component {
                     sensibleSkinScore={this.state.sensibleSkinScore}
                     changeSensibleScore={this.changeSensibleScore}
                 />
-                <Footer/>
+                {/* <Footer/> */}
             </React.Fragment>
         )
     }
