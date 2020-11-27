@@ -148,9 +148,6 @@ class Questionary extends Component {
         case 12:
             btndots="/assets/dots/Pregunta12.svg";
             break;
-        case 13:
-            btndots="/assets/dots/Pregunta13.svg";
-            break;
         default:
             break;
     }

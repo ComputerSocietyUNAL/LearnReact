@@ -9,7 +9,6 @@ export default class SensibleBanner extends Component {
             <div>
                 {this.props.sensibleSkinScore > 1 ?
                 <div className="Banner-text">
-                    <p>Conoce tu tipo de piel y su cuidado especializado</p>
                     <Link 
                         className="btn btn-light animate__animated animate__pulse animate__infinite " /* to="/test"  */
                         onClick={e => this.props.changeSensibleScore(e)}
@@ -17,7 +16,7 @@ export default class SensibleBanner extends Component {
                             margin:'15px', 
                             width:'auto', 
                             backgroundColor:"#62788D",
-                            color:"white"}}>Ver más</Link>
+                            color:"white"}}>Conoce tu tipo de piel y su cuidado especializado</Link>
                 </div>
                 :
                 <div></div>
