@@ -18,13 +18,13 @@ export default class Header extends Component{
     ];
 
     skinType(score){
-        if(score <= 9){
+        if(score <= 8){
             return 1
         } else if (score <= 12) {
             return 2
         } else if (score <= 16) {
             return 3
-        } else if (score <= 24) {
+        } else if (score <= 20) {
             return 4
         } else {
             return 5

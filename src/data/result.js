@@ -58,7 +58,7 @@ export const result = [
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                advice:'Úsalo todas las mañanas como reemplazo al jabón y limpia sin resecar tu piel.',
+                advice:'Barra sin jabón para usar mientras lavas o bañas tu cuerpo, que limpia sin irritar tu piel.',
                 image: '/assets/products/Producto4.png',
                 type: 'Cuerpo'
             },
@@ -72,19 +72,19 @@ export const result = [
         hydration: [
             {
                 description: 'Cetaphil® Loción Facial Hidratante de día',
-                advice:'Después de la limpieza, aplica uniformemente en el rostro hasta que se absorba para mantener la hidratación durante todo el día.',
+                advice:'Después de la limpieza aplica uniformemente en el rostro hasta que se absorba, para mantener la hidratación durante todo el día.',
                 image: '/assets/products/Producto6.png',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Facial Hidratante de noche',
-                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza para fortalecer la barrera de humectación natural mientras duermes.',
+                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza, para fortalecer la barrera de humectación natural mientras duermes.',
                 image: '/assets/products/Producto7.png',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Ultrahumectante 473 mL',
-                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza para fortalecer la barrera de humectación natural mientras duermes.',
+                advice:'Aplica diariamente sobre la piel seca para ayudar a restaurar la capa protectora, previniendo la pérdida de agua.',
                 image: '/assets/products/Producto8.png',
                 type: 'Cuerpo'
             }
@@ -138,7 +138,7 @@ export const result = [
             },
             {
                 description: 'Cetaphil® Limpiador PRO AD Control',
-                advice:'Aplica sobre la piel húmeda y masajea hasta hacer espuma para limpiar, humectar y aliviar tu piel.',
+                advice:'Aplica a diario sobre la piel, húmeda y masajea hasta hacer espuma para limpiar, humectar y aliviar tu piel.',
                 image: '/assets/products/Producto9.png',
                 type: 'Cuerpo'
             }
@@ -161,7 +161,7 @@ export const result = [
         solarProtection: [
             {
                 description: 'Cetaphil® Gel Ligero 100 mL',
-                advice:'Aplica todos los días cada 3 horas o antes de exposición al sol, luego de sudoración intensa, de nadar o bañarse y ten un control continuo del brillo en tu rostro.',
+                advice:'Aplica todos los días cada 3 horas o antes de exposición al sol, luego de sudoración intensa, de nadar o bañarse para una protección eficaz contra los daños del sol.',
                 image: '/assets/products/Producto18.png',
                 type: 'Cuerpo'
             }
@@ -214,7 +214,7 @@ export const result = [
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                advice:'Úsalo todas las mañanas como reemplazo al jabón y limpia sin resecar tu piel.',
+                advice:'Barra sin jabón para usar mientras lavas o bañas tu cuerpo, que limpia sin irritar tu piel.',
                 image: '/assets/products/Producto4.png',
                 type: 'Cuerpo'
             },
@@ -222,13 +222,13 @@ export const result = [
         hydration: [
             {
                 description: 'Cetaphil® Loción Facial Hidratante de día',
-                advice:'Después de la limpieza, aplica uniformemente en el rostro hasta que se absorba para mantener la hidratación durante todo el día.',
+                advice:'Después de la limpieza aplica uniformemente en el rostro hasta que se absorba, para mantener la hidratación durante todo el día.',
                 image: '/assets/products/Producto6.png',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Facial Hidratante de noche',
-                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza para fortalecer la barrera de humectación natural mientras duermes.',
+                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza, para fortalecer la barrera de humectación natural mientras duermes.',
                 image: '/assets/products/Producto7.png',
                 type: 'Rostro'
             },
@@ -283,7 +283,7 @@ export const result = [
             },
             {
                 description: 'Cetaphil® PRO AC Control Espuma',
-                advice:'Humedece el rostro y aplica la espuma para regular los niveles de grasa, eliminando el brillo sin irritar tu piel.',
+                advice:'Humedece el rostro y aplica a diario la espuma para regular los niveles de grasa, eliminando el brillo sin irritar tu piel.',
                 image: '/assets/products/Producto12.png',
                 type: 'Rostro'
             },
@@ -295,7 +295,7 @@ export const result = [
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                advice:'Úsalo todas las mañanas como reemplazo al jabón y limpia sin resecar tu piel.',
+                advice:'Barra sin jabón para usar mientras lavas o bañas tu cuerpo, que limpia sin irritar tu piel.',
                 image: '/assets/products/Producto4.png',
                 type: 'Cuerpo'
             }
@@ -358,7 +358,7 @@ export const result = [
             },
             {
                 description: 'Cetaphil® PRO AC Control Espuma',
-                advice:'Humedece el rostro y aplica la espuma para regular los niveles de grasa, eliminando el brillo sin irritar tu piel.',
+                advice:'Humedece el rostro y aplica a diario la espuma para regular los niveles de grasa, eliminando el brillo sin irritar tu piel.',
                 image: '/assets/products/Producto12.png',
                 type: 'Rostro'
             },
@@ -370,7 +370,7 @@ export const result = [
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                advice:'Úsalo todas las mañanas como reemplazo al jabón y limpia sin resecar tu piel.',
+                advice:'Barra sin jabón para usar mientras lavas o bañas tu cuerpo, que limpia sin irritar tu piel.',
                 image: '/assets/products/Producto4.png',
                 type: 'Cuerpo'
             }
@@ -378,13 +378,13 @@ export const result = [
         hydration: [
             {
                 description: 'Cetaphil® Loción Facial Hidratante de día',
-                advice:'Después de la limpieza, aplica uniformemente en el rostro hasta que se absorba para mantener la hidratación durante todo el día.',
+                advice:'Después de la limpieza aplica uniformemente en el rostro hasta que se absorba, para mantener la hidratación durante todo el día.',
                 image: '/assets/products/Producto6.png',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Facial Hidratante de noche',
-                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza para fortalecer la barrera de humectación natural mientras duermes.',
+                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza, para fortalecer la barrera de humectación natural mientras duermes.',
                 image: '/assets/products/Producto7.png',
                 type: 'Rostro'
             },
@@ -451,7 +451,7 @@ export const result = [
             },
             {
                 description: 'Cetaphil® Barra Limpieza Profunda',
-                advice:'Úsalo todas las mañanas como reemplazo al jabón y limpia sin resecar tu piel.',
+                advice:'Barra sin jabón para usar mientras lavas o bañas tu cuerpo, que limpia sin irritar tu piel.',
                 image: '/assets/products/Producto4.png',
                 type: 'Cuerpo'
             }
@@ -459,19 +459,19 @@ export const result = [
         hydration: [
             {
                 description: 'Cetaphil® Loción Facial Hidratante de día',
-                advice:'Después de la limpieza, aplica uniformemente en el rostro hasta que se absorba para mantener la hidratación durante todo el día.',
+                advice:'Después de la limpieza aplica uniformemente en el rostro hasta que se absorba, para mantener la hidratación durante todo el día.',
                 image: '/assets/products/Producto6.png',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Facial Hidratante de noche',
-                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza para fortalecer la barrera de humectación natural mientras duermes.',
+                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza, para fortalecer la barrera de humectación natural mientras duermes.',
                 image: '/assets/products/Producto7.png',
                 type: 'Rostro'
             },
             {
                 description: 'Cetaphil® Loción Ultrahumectante 473 mL',
-                advice:'Aplica uniformemente en el rostro por la noche, después de la limpieza para fortalecer la barrera de humectación natural mientras duermes.',
+                advice:'Aplica diariamente sobre la piel seca para ayudar a restaurar la capa protectora, previniendo la pérdida de agua.',
                 image: '/assets/products/Producto8.png',
                 type: 'Cuerpo'
             }

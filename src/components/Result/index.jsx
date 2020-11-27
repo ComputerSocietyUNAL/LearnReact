@@ -6,6 +6,7 @@ import Header from './Header';
 import Footer from "./Footer";
 import Main from './Main';
 import Banner from './Banner';
+import SensibleBanner from './SensibleBanner';
 
 class Result extends Component {
     constructor(props) {
@@ -31,6 +32,10 @@ class Result extends Component {
                     sensibleSkinScore={this.state.sensibleSkinScore}
                     skinScore={this.state.skinScore}
                     data={this.state.data}
+                />
+                <SensibleBanner
+                    sensibleSkinScore={this.state.sensibleSkinScore}
+                    changeSensibleScore={this.changeSensibleScore}
                 />
                 <Main
                     sensibleSkinScore={this.state.sensibleSkinScore}

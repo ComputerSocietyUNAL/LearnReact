@@ -12,7 +12,7 @@ export default class Banner extends Component {
                             <img src="/assets/BannerIZQ.png" className="Banner-img " alt=""/>
                         </div>
                         <div className="col-md-4">
-                        {   this.props.sensibleSkinScore > 1 ?
+                        {   this.props.sensibleSkinScore > 10 ?
                             <div className="Banner-text">
                                 <p>Conoce tu tipo de piel y su cuidado especializado</p>
                                 <Button color="secondary" className="animate__animated animate__pulse animate__infinite Banner-button" onClick={e => this.props.changeSensibleScore(e)}>Ver más</Button>

@@ -37,7 +37,7 @@ export const data = [
         skinType: [1,2,3,4],
         sensibleSkin: [0,0,0,0]
     },    
-    {
+    /*{
         configStyle: ['#BFC8D0' ,'#627892'],
         back:"#E8E9EA",
         configIcon: ['/assets/faces/13.png','/assets/faces/14.png','/assets/faces/15.png','/assets/faces/16.png'],
@@ -48,7 +48,7 @@ export const data = [
         'No es brillante pero tampoco luce seca.'],
         skinType: [1,2,3,4],
         sensibleSkin: [0,0,0,0]
-    },
+    }, */
     {
         configStyle: ['#D7CDC4' ,'#8F8070'],
         back:"#FFF3F1",
@@ -103,10 +103,10 @@ export const data = [
         configIcon: ['/assets/faces/33.png','/assets/faces/34.png','/assets/faces/35.png','/assets/faces/36.png'],
         question: '¿Consideras que tu piel es tirante y luce opaca?',
         answers: ['En rostro.',
-        'En una zona puntual (Ejemplo: manos).',
-        'En rostro, manos, y brazos.',
+        'En una zona puntual (Ejemplo: manos, brazos, rostro).',
+        'No tengo ninguna zona con piel tirante.',
         'Creo que todo mi cuerpo es de piel tirante.'],
-        skinType: [1,1,0,0],
+        skinType: [1,1,0,1],
         sensibleSkin: [0,0,0,0]
     },
     {
@@ -158,11 +158,11 @@ export const data = [
         sensibleSkin: [1,1,0,0]
     }
 ];/*Rangos SkinType
-           7-9 muy seca
-         10-12 Seca
-         13-16 Grasa
-         17-24 Mixta
-         25-29 Normal
+         05-08 muy seca
+         09-12 Seca
+         10-14 Grasa
+         15-19 Mixta
+         20-24 Normal
     Rangos sensibleSkin
             0-1 No
             2-4 Si */    
