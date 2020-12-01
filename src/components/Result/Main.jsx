@@ -38,7 +38,7 @@ export default class Main extends Component {
                 <div className="row justify-content-center">
                     <div className="col-md-5">
                         <h3 style={{color:'#627892',textAlign:'center',fontFamily:"Poppins-SemiBold",marginTop:"10px"}}>
-                            Los productos que te recomendamos para tu rutina de cuidado diario son:
+                        Haz clic para conocer cada paso de tu rutina de cuidado diario:
                         </h3> 
                     </div>
                 </div>

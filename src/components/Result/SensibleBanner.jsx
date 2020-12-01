@@ -1,5 +1,4 @@
 import React , { Component } from 'react';
-import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 
@@ -25,4 +24,3 @@ export default class SensibleBanner extends Component {
         )
     }
 }
-{/* <Button color="secondary" className="animate__animated animate__pulse animate__infinite Banner-button" onClick={e => this.props.changeSensibleScore(e)}>Ver más</Button> */}

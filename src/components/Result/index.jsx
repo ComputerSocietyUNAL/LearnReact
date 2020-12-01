@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 import { result } from '../../data/result';
 import Header from './Header';
-import Footer from "./Footer";
+/* import Footer from "./Footer"; */
 import Main from './Main';
 import Banner from './Banner';
 import SensibleBanner from './SensibleBanner';
