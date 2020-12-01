@@ -48,25 +48,28 @@ export default class Header extends Component{
                         <img className="Image contenido imageHeader" src={this.ImageArray[idx]} alt="Imagen" style={{width:"75%" , /* marginTop:"-40px", marginRight:"-10%" */}}></img>
                     </div>
                     <div className="col-md-6" style={{paddingTop:"5vh",paddingLeft:"0px",paddingRight:"5vw"}}>
-                        <p style={{
+                        <p className="resultText" style={{
                             fontFamily:"Poppins-Medium",
                             color:data[idx].configStyle[1],
-                            fontSize:'calc(1rem + 0.1vw)',
+                            /* fontSize:'calc(1rem + 0.1vw)', */
                             }}>
                             {data[idx].inicio}
                         </p>
                         <h1 style={{
                             fontFamily:"Poppins-Medium",
                             fontSize: 'calc(4rem + 4vw)',/*"11vw",8rem 131px*/
-                            color:data[idx].configStyle[1]}}
+                            color:data[idx].configStyle[1],
+                            marginLeft:"-20%"}}
                             /*131px*/>
                             {data[idx].skinResult}
                         </h1>
-                        <hr/>
-                        <p style={{
+                        <hr style={{
+                            marginLeft:"-20%",
+                            }}/>
+                        <p className="resultText" style={{
                             fontFamily:"Poppins-Regular",
                             color:data[idx].configStyle[1],
-                            fontSize:'calc(1rem + 0.1vw)',
+                            /* fontSize:'calc(1rem + 0.1vw)', */
                             }}> 
                             <strong>Piel {data[idx].skinResult}: </strong>{data[idx].description}
                         </p>

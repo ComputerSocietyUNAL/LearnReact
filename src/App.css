@@ -339,9 +339,17 @@ footer span {
   }
   .imageHeader {
     margin-top: -40px;
-    margin-right: -30%;
+    margin-right: 0%;
   }
-  
+  .resultText {
+    font-size: calc(1rem + 0.1vw);
+    margin-left:-20%;
+  }
 }
-
+@media only screen and (min-width:1400px) {
+  .resultText {
+    font-size: 1.5vw;
+    margin-left:-20%;
+  }
+}
 
