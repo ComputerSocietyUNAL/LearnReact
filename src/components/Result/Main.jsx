@@ -78,7 +78,7 @@ export default class Main extends Component {
                         className="btn btn-light animate__animated animate__pulse animate__infinite"
                         target="_blank" 
                         to={{pathname: this.props.data[idx].pdf}} 
-                        style={{margin:'20px', width:'250px', height:'73px', lineHeight:3.5, backgroundColor:'#62788D', color:'#FFFFFF',fontFamily:"Poppins-SemiBold"}}>
+                        style={{margin:'45px', width:'250px', height:'73px', lineHeight:3.5, backgroundColor:'#62788D', color:'#FFFFFF',fontFamily:"Poppins-SemiBold"}}>
                         Descarga aquí tu resultado
                     </Link>                    
                 </div>
