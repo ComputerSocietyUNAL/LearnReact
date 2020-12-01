@@ -4,6 +4,7 @@ import { Button } from 'reactstrap';
 import SimpleSlider from './Slider';
 import NoSlider from './noSlider';
 
+
 export default class Main extends Component {
 
     skinType(score){
@@ -36,7 +37,7 @@ export default class Main extends Component {
         <React.Fragment>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-md-5">
+                    <div className="col-md-7">
                         <h3 style={{color:'#627892',textAlign:'center',fontFamily:"Poppins-SemiBold",marginTop:"10px"}}>
                         Haz clic para conocer cada paso de tu rutina de cuidado diario:
                         </h3> 

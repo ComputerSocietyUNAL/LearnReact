@@ -41,6 +41,7 @@ class Result extends Component {
                     sensibleSkinScore={this.state.sensibleSkinScore}
                     skinScore={this.state.skinScore}
                     data={this.state.data}
+                    changeSensibleScore={this.changeSensibleScore}
                 />
                 <Banner 
                     sensibleSkinScore={this.state.sensibleSkinScore}
