@@ -67,10 +67,12 @@ export default class Header extends Component{
                         </h1>
                         <hr style={{
                             marginLeft:"-20%",
+                            marginBottom:"4%"
                             }}/>
                         <p className="resultText" style={{
                             fontFamily:"Poppins-Regular",
                             color:data[idx].configStyle[1],
+                            paddingRight:"4.5vw"
                             /* fontSize:'calc(1rem + 0.1vw)', */
                             }}> 
                             <strong>Piel {data[idx].skinResult}: </strong>{data[idx].description}
