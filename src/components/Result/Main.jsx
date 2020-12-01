@@ -43,7 +43,7 @@ export default class Main extends Component {
                         </h3> 
                     </div>
                 </div>
-                <div className="row col-md-8 col-7 justify-content-center" style={{width:"100vw",margin:"auto", marginBottom:"5vh"}}>
+                <div className="row col-md-8 col-7 justify-content-center" style={{width:"100vw",margin:"auto", marginBottom:"5vh", marginTop:"5vh"}}>
                     <Button outline
                         aria-pressed="true"
                         active={this.state.stage === 'clean'}
