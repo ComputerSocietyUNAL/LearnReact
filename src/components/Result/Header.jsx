@@ -49,19 +49,19 @@ export default class Header extends Component{
                     </div>
                     <div className="col-md-6 text-center" style={{paddingTop:"5vh",paddingLeft:"0px",paddingRight:"5vw"}}>
                         <p className="resultText" style={{
-                            textAlign:"left",
+                            /* textAlign:"left", */
                             fontFamily:"Poppins-Medium",
                             color:data[idx].configStyle[1],
                             /* fontSize:'calc(1rem + 0.1vw)', */
                             }}>
                             {data[idx].inicio}
                         </p>
-                        <h1 style={{
+                        <h1 className="resultTitle" style={{
                             textAlign:"left",
                             fontFamily:"Poppins-Medium",
                             fontSize: 'calc(4rem + 4vw)',/*"11vw",8rem 131px*/
                             color:data[idx].configStyle[1],
-                            marginLeft:"-20%"}}
+                            }}
                             /*131px*/>
                             {data[idx].skinResult}
                         </h1>

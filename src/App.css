@@ -328,6 +328,15 @@ footer span {
     padding: 0px;
     align-content: right;
   }
+  .resultTitle {
+    margin-left: 5vw;
+    text-align: center
+  }
+  .resultText {
+    font-size: calc(1rem + 0.1vw);
+    margin-left:5vw;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width:415px) {
@@ -344,6 +353,11 @@ footer span {
   .resultText {
     font-size: calc(1rem + 0.1vw);
     margin-left:-20%;
+    text-align: left;
+  }
+  .resultTitle {
+    margin-left: -20%;
+    text-align:"left"
   }
 }
 @media only screen and (min-width:1400px) {
