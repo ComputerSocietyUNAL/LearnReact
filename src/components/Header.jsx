@@ -5,7 +5,7 @@ export default class Header extends Component{
     render() {
         return (
             <header>
-                <img className="header" src={header} alt="Imagen" height={80}></img>
+                <img className="header" src={header} alt="Imagen" height='100%' style={{paddingTop:"1%"}} ></img>
             </header>
         )
     }

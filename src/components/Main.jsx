@@ -21,13 +21,13 @@ export default class Main extends Component {
     return (
       <React.Fragment>
         <Header/>
-          <div className="row fondo" style={{margin:'auto', width:'95%'}}>
-            <div className="col-md-6 contenido text-center" style={{padding:'50px'}}>
+          <div className="row fondo" style={{margin:'auto', width:'95%',height:"70%"}}>
+            <div className="col-md-6 contenido text-center" style={{margin:'auto',padding:'auto'}}>
               <p style={{color:"#627892"}}>¿Cuál es mi tipo de piel y qué producto debo utilizar?</p>
               <Link className="btn btn-light animate__animated animate__pulse animate__infinite" to="/test" style={{margin:'auto', width:'70%',maxWidth:"200px"/*35%*/,padding:"1%",color:"#122562"}}>Empezar Test</Link>
             </div>
-            <div className="col-md-6">
-              <img className="Image contenido" src={this.randomImage()} alt="Imagen"></img>
+            <div className="col-md-6 hostImg" style={{paddingRight:"0px"}} >
+              <img className="Image" src={this.randomImage()} alt="Imagen" height='100%'></img>
             </div>
           </div>
         <Footer/>

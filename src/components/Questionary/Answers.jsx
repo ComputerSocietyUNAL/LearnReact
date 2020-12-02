@@ -39,19 +39,19 @@ export default class Answers extends Component {
             <div id="answers">
                 <ul>
                     <li onClick={e => this.checkAnswer(e,0)} data-id="1">
-                        <img src={configIcon[0]} alt="Imagen" style={this.styleBackGround(configStyle)}></img>
+                        <img src={configIcon[0]} alt="Imagen" className="iconList" style={this.styleBackGround(configStyle)}></img>
                         <p style={this.styleColor(configStyle)}>{answers[0]}</p>
                     </li>
                     <li onClick={e => this.checkAnswer(e,1)} data-id="2">
-                        <img src={configIcon[1]} alt="Imagen" style={this.styleBackGround(configStyle)}></img>
+                        <img src={configIcon[1]} alt="Imagen" className="iconList" style={this.styleBackGround(configStyle)}></img>
                         <p style={this.styleColor(configStyle)}>{answers[1]}</p>
                     </li>
                     <li onClick={e => this.checkAnswer(e,2)} data-id="3">
-                        <img src={configIcon[2]} alt="Imagen" style={this.styleBackGround(configStyle)}></img>
+                        <img src={configIcon[2]} alt="Imagen" className="iconList" style={this.styleBackGround(configStyle)}></img>
                         <p style={this.styleColor(configStyle)}>{answers[2]}</p>
                     </li>
                     <li onClick={e => this.checkAnswer(e,3)} data-id="4">
-                        <img src={configIcon[3]} alt="Imagen" style={this.styleBackGround(configStyle)}></img>
+                        <img src={configIcon[3]} alt="Imagen" className="iconList" style={this.styleBackGround(configStyle)}></img>
                         <p style={this.styleColor(configStyle)}>{answers[3]}</p>
                     </li>
                 </ul>

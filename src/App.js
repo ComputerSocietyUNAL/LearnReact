@@ -12,7 +12,7 @@ import Result from "./components/Result";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App"style={{height:"100%"}}>
         <Switch>
           <Route path="/test">            
             <Questionary />
