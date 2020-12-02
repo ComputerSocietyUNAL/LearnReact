@@ -7,7 +7,7 @@ export default class Footer extends Component{
             <footer>
                 <a 
                     className="btn btn-default" 
-                    type="button" 
+                    /* type="button"  */
                     href="https://www.facebook.com/cetaphilcolombia"
                     style={{width:"32px",height:"32px",padding:"0px",borderWidth:"0px"}}
                 >
@@ -15,7 +15,7 @@ export default class Footer extends Component{
                 </a>
                 <a 
                     className="btn btn-default" 
-                    type="button" 
+                    /* type="button" */ 
                     href="https://twitter.com/CetaphilCol"
                     style={{width:"32px",height:"32px",padding:"0px",borderWidth:"0px"}}
                 >
@@ -23,7 +23,7 @@ export default class Footer extends Component{
                 </a>
                 <a 
                     className="btn btn-default" 
-                    type="button"
+                    /* type="button" */
                     href="https://www.youtube.com/user/GaldermaColombia" 
                     style={{width:"32px",height:"32px",padding:"0px",borderWidth:"0px"}}
                 >
@@ -31,13 +31,13 @@ export default class Footer extends Component{
                 </a>
                 <a 
                     className="btn btn-default" 
-                    type="button"
+                    /* type="button" */
                     href="https://www.instagram.com/cetaphilcol/" 
                     style={{width:"32px",height:"32px",padding:"0px",borderWidth:"0px"}}
                 >
                     <img src="/assets/redes/Instagram-Azul.png" alt="" style={{width:"32px"}}/>
                 </a>
-                <img className="footer" src={footer} alt="Imagen" height='100%' style={{paddingBottom:"1%"}}></img>
+                <img className="footer" src={footer} alt="Imagen" height='100%' style={{paddingBottom:"1%",marginLeft:"20px"}}></img>
             </footer>
         )
     }

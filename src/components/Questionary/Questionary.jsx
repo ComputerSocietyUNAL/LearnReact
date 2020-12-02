@@ -155,17 +155,17 @@ class Questionary extends Component {
             <TransitionGroup style={{height:"inherit"}}>
                 <div className="container" style={{backgroundColor: back,height:"inherit"}}>
                     <Header/>
-                    <Stagger in style={{height:"70%"}}>
-                        <Fade in style={{height:"100%"}}>
-                            <div id="question" className="row" style={{height:"100%"}}>
-                                <div  className="col-md-6 contenido2" style={this.style(configStyle)}>
+                    <Stagger in className="questionBox">
+                        <Fade in>
+                            <div id="question" className="row">
+                                <div className="col-md-6 contenido2" style={this.style(configStyle)}>
                                     <AnimateOnChange durationOut="500" >
                                         <p className="pregunta" >{question}</p>
                                     </AnimateOnChange>
                                     <img className="dots" src={btndots} alt="dots" />
                                 </div>
-                                <div className="col-md-6 contenido2" style={{padding:"0px"}}>
-                                    <AnimateOnChange durationOut="500" style={{height:"100%"}}>
+                                <div className="col-md-6 contenido2" >
+                                    <AnimateOnChange durationOut="500" >
                                         <Answers 
                                             answers={answers}
                                             showButton={this.nextQuestion} 
