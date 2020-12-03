@@ -85,9 +85,10 @@ body {
     height: 15%;
     background-color: transparent;
     color: white;
-    padding: 25px;
-    padding-top: 25px;
-    padding-right: 40px;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 35px;
     text-align: end;
   }
   #question {
@@ -158,6 +159,7 @@ body {
     overflow: hidden;
   }
   #answers {
+    margin-top: 7%;
     background-color: transparent;
     min-height: 70px;
     width: 100%;
