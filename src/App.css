@@ -196,8 +196,8 @@ body {
   }
   .iconList{
     height: 100%;
-    max-width: 80px;
-    max-height: 81px;
+    max-width: 20%;/*80px*/
+    max-height: 70px;
   }
   #answers li p {
     color: #0b0e21;
