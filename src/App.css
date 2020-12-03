@@ -71,10 +71,10 @@ body {
 /*phone*/
 @media only screen and (max-width:414px) {
   header{
-    height: 14%;
+    height: 13%;
     background-color: transparent;
     padding-right: 40px;
-    padding: 20px;
+    padding: 15px;
     text-align: end;
   }
   .fondo{
@@ -85,9 +85,9 @@ body {
     height: 14%;
     background-color: transparent;
     color: white;
-    margin-top: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 0px;
     padding-right: 35px;
     text-align: end;
   }
@@ -96,14 +96,17 @@ body {
     color: #8B9696;
     padding: 10px;
     text-align: center;
-    height: 70%;
+    height: 100%;
   }
   .contenido2 {
     height: 100%;/*22vh*/
     display: inline;
   }
   .pregunta {
-    margin-top: 4vh;
+    margin-top: 1.5vh;
+    margin-bottom: 0px;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   .contenido p {  
     /* font-family: Poppins-Regular, Sans; */
@@ -124,6 +127,7 @@ body {
   .questionBox {
     height: 70%;
   }
+  
   .mobileSlider {
     display: show;
   }
