@@ -37,7 +37,7 @@ export default class Footer extends Component{
                 >
                     <img src="/assets/redes/Instagram-Azul.png" alt="" style={{width:"32px"}}/>
                 </a>
-                <img className="footer" src={footer} alt="Imagen" height='100%' style={{paddingBottom:"1%",marginLeft:"20px"}}></img>
+                <img className="footer" src={footer} alt="Imagen" height='100%' style={{paddingBottom:"1%",marginLeft:"10px"}}></img>
             </footer>
         )
     }

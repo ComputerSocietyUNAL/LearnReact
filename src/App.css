@@ -179,7 +179,7 @@ body {
     font-family: Poppins-Medium, Sans;
     background-color:#ffffff;
     min-height: 7px;
-    max-height: 85px;/*90px*/
+    max-height: 11vh;/*75px*/
     width: 98%;
     display: flex;
     margin: 5px 5px;
@@ -190,6 +190,8 @@ body {
   }
   .iconList{
     height: 100%;
+    max-width: 80px;
+    max-height: 81px;
   }
   #answers li p {
     color: #0b0e21;
