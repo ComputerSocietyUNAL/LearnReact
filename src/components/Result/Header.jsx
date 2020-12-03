@@ -57,7 +57,7 @@ export default class Header extends Component{
                             {data[idx].inicio}
                         </p>
                         <h1 className="resultTitle" style={{
-                            textAlign:"left",
+                            textAlign:"center",
                             fontFamily:"Poppins-Medium",
                             fontSize: 'calc(4rem + 4vw)',/*"11vw",8rem 131px*/
                             color:data[idx].configStyle[1],
