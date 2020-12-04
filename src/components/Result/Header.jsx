@@ -42,17 +42,15 @@ export default class Header extends Component{
         const data = this.props.data;
         
         return (
-            <div style={{marginBottom:"0px",height:"60%"}}>
-                <div className="row fondo" style={{backgroundColor:data[idx].configStyle[0],margin:"0px"}}>
-                    <div className="col-md-6 headerContenido text-center">
-                        <img className="Image contenido imageHeader" src={this.ImageArray[idx]} alt="Imagen" style={{width:"75%" , /* marginTop:"-40px", marginRight:"-10%" */}}></img>
+            <div style={{marginBottom:"0px"}}>
+                <div className="row resultFondo" style={{backgroundColor:data[idx].configStyle[0],margin:"0px"}}>
+                    <div className="col-md-6 headerImg text-center">
+                        <img className="Image resultImg imageHeader" src={this.ImageArray[idx]} alt="Imagen" style={{width:"75%" , /* marginTop:"-40px", marginRight:"-10%" */}}></img>
                     </div>
-                    <div className="col-md-6 text-center" style={{paddingTop:"5vh",paddingLeft:"0px",paddingRight:"5vw"}}>
+                    <div className="col-md-6 resultContenido text-center">
                         <p className="resultText" style={{
-                            /* textAlign:"left", */
                             fontFamily:"Poppins-Medium",
                             color:data[idx].configStyle[1],
-                            /* fontSize:'calc(1rem + 0.1vw)', */
                             }}>
                             {data[idx].inicio}
                         </p>
@@ -60,8 +58,7 @@ export default class Header extends Component{
                             fontFamily:"Poppins-Medium",
                             fontSize: 'calc(4rem + 4vw)',/*"11vw",8rem 131px*/
                             color:data[idx].configStyle[1],
-                            }}
-                            /*131px*/>
+                            }}>
                             {data[idx].skinResult}
                         </h1>
                         <hr style={{
@@ -72,7 +69,6 @@ export default class Header extends Component{
                             fontFamily:"Poppins-Regular",
                             color:data[idx].configStyle[1],
                             paddingRight:"4.5vw"
-                            /* fontSize:'calc(1rem + 0.1vw)', */
                             }}> 
                             <strong>Piel {data[idx].skinResult}: </strong>{data[idx].description}
                         </p>
