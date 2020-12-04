@@ -42,8 +42,8 @@ export default class Header extends Component{
         const data = this.props.data;
         
         return (
-            <div style={{marginBottom:"50px"}}>
-                <div className="row fondo " style={{backgroundColor:data[idx].configStyle[0],margin:"0px"}}>
+            <div style={{marginBottom:"0px",height:"60%"}}>
+                <div className="row fondo" style={{backgroundColor:data[idx].configStyle[0],margin:"0px"}}>
                     <div className="col-md-6 headerContenido text-center">
                         <img className="Image contenido imageHeader" src={this.ImageArray[idx]} alt="Imagen" style={{width:"75%" , /* marginTop:"-40px", marginRight:"-10%" */}}></img>
                     </div>
