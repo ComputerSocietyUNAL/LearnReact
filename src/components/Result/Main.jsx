@@ -47,21 +47,21 @@ export default class Main extends Component {
                     <Button outline
                         aria-pressed="true"
                         active={this.state.stage === 'clean'}
-                        style={{margin:"auto",marginBottom:"10px", width:"150px"}}
+                        style={{margin:"auto",marginBottom:"10px", width:"160px"}}
                         onClick={ e => {
                             this.setState({ stage: "clean"})}}> 
                         Limpieza 
                     </Button>
                     <Button outline
                         active={this.state.stage === 'hydration'}
-                        style={{margin:"auto",marginBottom:"10px", width:"150px"}}
+                        style={{margin:"auto",marginBottom:"10px", width:"160px"}}
                         onClick={ e => {
                             this.setState({ stage: "hydration"})}}> 
                         Hidratación 
                     </Button>
                     <Button outline
                         active={this.state.stage === 'solarProtection'}
-                        style={{margin:"auto",marginBottom:"10px" , width:"150px"}}
+                        style={{margin:"auto",marginBottom:"10px" , width:"160px"}}
                         onClick={ e => {
                             this.setState({ stage: "solarProtection"})}}> 
                         Protección Solar 
