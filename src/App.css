@@ -80,6 +80,7 @@ body {
   .fondo{
     background-color: #BFC8D0;
     height:70%;
+    overflow: hidden;
   }
   footer {
     height: 14%;
@@ -155,7 +156,7 @@ body {
   }
   .hostImg {
     height: inherit;
-    margin-top: 0px;
+    margin-top: 0%;
     margin: auto;
     margin-right: 15px;
     padding: auto;
