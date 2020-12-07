@@ -163,7 +163,7 @@ body {
   .headerImg {
     width: 75%;
     /* height: 40%; */
-    margin: 0px;
+    margin: auto;
     padding: 0px;
   }
   .resultTitle {
