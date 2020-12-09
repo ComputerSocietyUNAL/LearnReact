@@ -70,6 +70,9 @@ body {
 
 /*phone*/
 @media only screen and (max-width:414px) {
+  #root{
+    height: 100%;
+  }
   header{
     height: 13%;
     background-color: transparent;
@@ -274,7 +277,9 @@ body {
 }
 /*PC*/
 @media only screen and (min-width:415px) {
-
+  #root{
+    height: auto;
+  }
   .frame-text {
     color:white;
     font-family:Poppins-Regular;
@@ -452,7 +457,6 @@ body {
   }
   .contenido2 {
     width: 100%;
-    /* height: 510px */;/*510px*/
     margin-top: 2% ;
   }
   .dots {
