@@ -396,14 +396,16 @@ body {
   }
 
   header{
-    height: 15%;
+    height: 15vh;
+    /* height: 15%; */
     background-color: transparent;
     padding-right: 40px;
     text-align: end;
   }
 
   footer {
-    height: 15%;
+    height: 15vh;
+    /* height: 15%; */
     background-color: transparent;
     color: white;
     padding-top: 10px;

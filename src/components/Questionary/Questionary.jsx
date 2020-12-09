@@ -154,7 +154,7 @@ class Questionary extends Component {
         return (
             <TransitionGroup style={{height:"auto"}}>
                 <div className="container" style={{backgroundColor: back,height:"100%"}}>
-                    <Header/>
+                    <Header></Header>
                     <Stagger in className="questionBox">
                         <Fade in>
                             <div id="question" className="row">
