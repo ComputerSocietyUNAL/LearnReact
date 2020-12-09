@@ -152,8 +152,8 @@ class Questionary extends Component {
             break;
     }
         return (
-            <TransitionGroup style={{height:"inherit"}}>
-                <div className="container" style={{backgroundColor: back,height:"inherit"}}>
+            <TransitionGroup style={{height:"auto"}}>
+                <div className="container" style={{backgroundColor: back,height:"100%"}}>
                     <Header/>
                     <Stagger in className="questionBox">
                         <Fade in>

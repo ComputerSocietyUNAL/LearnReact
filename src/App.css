@@ -278,7 +278,7 @@ body {
 /*PC*/
 @media only screen and (min-width:415px) {
   #root{
-    height: auto;
+    height: 100%;
   }
   .frame-text {
     color:white;
