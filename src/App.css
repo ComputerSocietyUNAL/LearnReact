@@ -139,7 +139,7 @@ body {
     font-weight: 700;
   }
   .questionBox {
-    height: 60vh;
+    height: 65%;/*70vh*/
   }
   
   .mobileSlider {
