@@ -74,7 +74,7 @@ body {
     height: 100%;
   }
   header{
-    height: 13%;
+    height: 15vh;
     background-color: transparent;
     padding-right: 40px;
     padding: 15px;
@@ -91,13 +91,13 @@ body {
     overflow: hidden;
   }
   footer {
-    height: 14%;
+    height: 15vh;
     background-color: transparent;
     color: white;
     margin-top: 0px;
     padding-top: 40px;
-    padding-bottom: 0px;
-    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-right: 30px;
     text-align: end;
   }
   #question {
@@ -105,10 +105,14 @@ body {
     color: #8B9696;
     padding: 10px;
     text-align: center;
-    height: 100%;
+    height: auto;
+  }
+  .contenidoQuestion {
+    height: auto;
+    display: inline;
   }
   .contenido2 {
-    height: 100%;/*22vh*/
+    height: 23vh;/*22vh*/
     display: inline;
   }
   .pregunta {
@@ -127,6 +131,7 @@ body {
     margin-top: 0px;
     margin-bottom: 5px;
     position: relative;
+
   }
   #question p{
     font-family: Poppins-Medium, Sans;
@@ -134,7 +139,7 @@ body {
     font-weight: 700;
   }
   .questionBox {
-    height: 70%;
+    height: 70vh;
   }
   
   .mobileSlider {
@@ -456,6 +461,10 @@ body {
     margin: auto;
     padding: 0px;
     align-content: center;
+  }
+  .contenidoQuestion {
+    width: 100%;
+    margin-top: 2% ;
   }
   .contenido2 {
     width: 100%;

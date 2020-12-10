@@ -154,11 +154,11 @@ class Questionary extends Component {
         return (
             <TransitionGroup style={{height:"auto"}}>
                 <div className="container" style={{backgroundColor: back,height:"100%"}}>
-                    <Header></Header>
+                    <Header/>
                     <Stagger in className="questionBox">
-                        <Fade in>
+                        <Fade in style={{height:"auto"}}>
                             <div id="question" className="row">
-                                <div className="col-md-6 contenido2" style={this.style(configStyle)}>
+                                <div className="col-md-6 contenidoQuestion" style={this.style(configStyle)}>
                                     <AnimateOnChange durationOut="500" >
                                         <p className="pregunta" >{question}</p>
                                     </AnimateOnChange>
